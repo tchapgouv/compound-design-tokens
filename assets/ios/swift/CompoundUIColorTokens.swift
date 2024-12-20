@@ -6,10 +6,10 @@
 import UIKit
 
 public class CompoundUIColorTokens {
-    public let bgAccentHovered = CompoundCoreUIColorTokens.green1000
-    public let bgAccentPressed = CompoundCoreUIColorTokens.green1100
-    public let bgAccentRest = CompoundCoreUIColorTokens.green900
-    public let bgAccentSelected = CompoundCoreUIColorTokens.alphaGreen300
+    public let bgAccentHovered = CompoundCoreUIColorTokens.blue1000
+    public let bgAccentPressed = CompoundCoreUIColorTokens.blue1100
+    public let bgAccentRest = CompoundCoreUIColorTokens.blue900
+    public let bgAccentSelected = CompoundCoreUIColorTokens.alphaBlue300
     public let bgActionPrimaryDisabled = CompoundCoreUIColorTokens.gray700
     public let bgActionPrimaryHovered = CompoundCoreUIColorTokens.gray1200
     public let bgActionPrimaryPressed = CompoundCoreUIColorTokens.gray1100
