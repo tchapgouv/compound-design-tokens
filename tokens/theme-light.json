@@ -528,7 +528,7 @@
         "description": "WCAG: 1.12"
       },
       "400": {
-        "value": "#E1E0F9",
+        "value": "#e3e3fd",
         "type": "color",
         "description": "WCAG: 1.25"
       },
