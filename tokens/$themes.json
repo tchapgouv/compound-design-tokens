@@ -5,7 +5,8 @@
     "selectedTokenSets": {
       "cross-platform": "enabled"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
   },
   {
     "id": "96f4f9bd2bf32c4657bfe283f418fc093117942f",
@@ -30,7 +31,8 @@
       "font.heading.lg.bold": "S:7156d03d0382433247d13363a4d61bbd94d6d8a0,",
       "font.heading.xl.regular": "S:ed5e373d73f926b2a445422f5123af608aff3608,",
       "font.heading.xl.bold": "S:ed964402b2d621a3b42c593a006106ef8d16d997,"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "0022f9989257cb4474cf2429dc471f3ea70d0f9d",
@@ -55,7 +57,8 @@
       "font.heading.lg.bold": "S:719a10da64d61143b5f8c8f72f95ee9b1cc17165,",
       "font.heading.xl.regular": "S:9b33ce14f465e3ccf8704d18f155b73d2718f303,",
       "font.heading.xl.bold": "S:9ef5d6d545bd0317828f64dae508107b13758548,"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "22ad1f7c65308da86722dc9335e31be4d9fa53d7",
@@ -85,7 +88,8 @@
       "font.heading.lg.semibold": "S:a1463858c179d0f7f978e6cbddd5e47f188c1d22,",
       "font.heading.xl.regular": "S:e4134051ce14f7e7a235e230437cce8987138117,",
       "font.heading.xl.semibold": "S:f182744c7886658e9aa79987e9abc4cb5187d958,"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "abf8e2aa6d1c09197edbc57274569f0591a2f50f",
@@ -474,7 +478,8 @@
       "color.bg.accent.hovered": "S:6ce4d2e3bf9e5a762dc8077fcf2fa36419cb2562,",
       "color.bg.accent.pressed": "S:298a3c8274c7f142e4260d93a17d67e5dbad015b,",
       "color.icon.accent.primary": "S:335e8d3421a11fbd10085c38653cfb1d0972cd36,"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "25ad1161805c593282b722f6ba4d53ad141d1f1a",
@@ -863,7 +868,8 @@
       "color.bg.accent.hovered": "S:d2a2580bbc3a49b20d80bff6e041d8c63d163096,",
       "color.bg.accent.pressed": "S:d7d921087a362582f8202a5949e416cb9cbdd11c,",
       "color.icon.accent.primary": "S:1bad861fc99ed9e04874289a7d3be7cf7fa33772,"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "d15c383f4f0dc957a019c3053bc0f2d8ba4d44f2",
@@ -1252,7 +1258,8 @@
       "color.bg.accent.hovered": "S:e0adad4161f53f0ab27fda5b640b1bfb96c0d4bf,",
       "color.bg.accent.pressed": "S:f174aac7bd4c4ebd76f0449197dc92496a70a640,",
       "color.icon.accent.primary": "S:ca4514d13e1497a75be02cfe41e29f24be2c05ba,"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "3c14265b144e3fb13cddc5c4f5ecdcdb8c035d03",
@@ -1641,6 +1648,7 @@
       "color.bg.accent.hovered": "S:d613a08ee025ee7a9ce9ee6e65fda2b088cd47f8,",
       "color.bg.accent.pressed": "S:62eae9aca98cf02cfe1599fd456bb4995db5b563,",
       "color.icon.accent.primary": "S:d3f02cccf95f4800a93ad469d723eca4c9610631,"
-    }
+    },
+    "$figmaVariableReferences": {}
   }
 ]
