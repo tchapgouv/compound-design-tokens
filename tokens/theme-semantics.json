@@ -110,7 +110,7 @@
     },
     "bg": {
       "subtle-primary": {
-        "value": "{color.gray.400}",
+        "value": "{color.blue.400}",
         "type": "color",
         "description": "Medium contrast surfaces.\nElevation: Default (Level 2)."
       },
@@ -149,7 +149,7 @@
             "description": "Background colour for primary actions. State: Pressed."
           },
           "disabled": {
-            "value": "{color.blue.800}",
+            "value": "{color.blue.900}",
             "type": "color",
             "description": "Background colour for primary actions. State: Disabled."
           }
@@ -332,7 +332,7 @@
     },
     "icon": {
       "primary": {
-        "value": "{color.blue.1200}",
+        "value": "{color.gray.1400}",
         "type": "color",
         "description": "Highest contrast icons."
       },
@@ -397,7 +397,7 @@
       },
       "success": {
         "primary": {
-          "value": "{color.green.900}",
+          "value": "{color.blue.1200}",
           "type": "color",
           "description": "High-contrast icon for success state elements."
         }
