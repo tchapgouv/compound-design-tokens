@@ -5,8 +5,8 @@
     "selectedTokenSets": {
       "cross-platform": "enabled"
     },
-    "$figmaStyleReferences": {},
-    "$figmaVariableReferences": {}
+    "$figmaStyleReferences": {} 
+    
   },
   {
     "id": "96f4f9bd2bf32c4657bfe283f418fc093117942f",
@@ -31,8 +31,8 @@
       "font.heading.lg.bold": "S:7156d03d0382433247d13363a4d61bbd94d6d8a0,",
       "font.heading.xl.regular": "S:ed5e373d73f926b2a445422f5123af608aff3608,",
       "font.heading.xl.bold": "S:ed964402b2d621a3b42c593a006106ef8d16d997,"
-    },
-    "$figmaVariableReferences": {}
+    } 
+    
   },
   {
     "id": "0022f9989257cb4474cf2429dc471f3ea70d0f9d",
@@ -57,8 +57,8 @@
       "font.heading.lg.bold": "S:719a10da64d61143b5f8c8f72f95ee9b1cc17165,",
       "font.heading.xl.regular": "S:9b33ce14f465e3ccf8704d18f155b73d2718f303,",
       "font.heading.xl.bold": "S:9ef5d6d545bd0317828f64dae508107b13758548,"
-    },
-    "$figmaVariableReferences": {}
+    }
+    
   },
   {
     "id": "22ad1f7c65308da86722dc9335e31be4d9fa53d7",
@@ -88,8 +88,8 @@
       "font.heading.lg.semibold": "S:a1463858c179d0f7f978e6cbddd5e47f188c1d22,",
       "font.heading.xl.regular": "S:e4134051ce14f7e7a235e230437cce8987138117,",
       "font.heading.xl.semibold": "S:f182744c7886658e9aa79987e9abc4cb5187d958,"
-    },
-    "$figmaVariableReferences": {}
+    }
+    
   },
   {
     "id": "abf8e2aa6d1c09197edbc57274569f0591a2f50f",
