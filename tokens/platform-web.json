@@ -8,6 +8,10 @@
       "mono": {
         "value": "Inconsolata",
         "type": "fontFamilies"
+      },
+      "tchap": {
+        "value": "Marianne",
+        "type": "fontFamilies"
       }
     },
     "weight": {
@@ -253,30 +257,27 @@
       "sm": {
         "regular": {
           "value": {
-            "fontWeight": "{font.weight.regular}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.sm}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.sm}"
           },
           "type": "typography"
         },
         "medium": {
           "value": {
-            "fontWeight": "{font.weight.medium}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.sm}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.sm}"
           },
           "type": "typography"
         },
         "semibold": {
           "value": {
-            "fontWeight": "{font.weight.semibold}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.sm}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.sm}"
           },
           "type": "typography"
@@ -285,20 +286,18 @@
       "md": {
         "regular": {
           "value": {
-            "fontWeight": "{font.weight.regular}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.md}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.md}"
           },
           "type": "typography"
         },
         "semibold": {
           "value": {
-            "fontWeight": "{font.weight.semibold}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.md}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.md}"
           },
           "type": "typography"
@@ -307,20 +306,18 @@
       "lg": {
         "regular": {
           "value": {
-            "fontWeight": "{font.weight.regular}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.lg}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.lg}"
           },
           "type": "typography"
         },
         "semibold": {
           "value": {
-            "fontWeight": "{font.weight.semibold}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.lg}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.lg}"
           },
           "type": "typography"
@@ -329,20 +326,18 @@
       "xl": {
         "regular": {
           "value": {
-            "fontWeight": "{font.weight.regular}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.xl}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.xl}"
           },
           "type": "typography"
         },
         "semibold": {
           "value": {
-            "fontWeight": "{font.weight.semibold}",
+            "fontFamily": "{font.family.tchap}",
             "fontSize": "{font.size.heading.xl}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
             "letterSpacing": "{font.letter-spacing.heading.xl}"
           },
           "type": "typography"
