@@ -21,7 +21,9 @@ public class CompoundDesignTokens {
     public static let borderWidth0_5 = CGFloat(0.5)
     public static let fontFamilySans = "SF Pro"
     public static let fontFamilyMono = "SF Mono"
+    public static let fontFamilyTchap = "Marianne"
     public static let fontWeightRegular = Font.Weight.regular
+    public static let fontWeightMedium = Font.Weight.regular
     public static let fontWeightSemibold = Font.Weight.semibold
     public static let fontWeightBold = Font.Weight.bold
     public static let fontLineHeightBodyXsRegular = CGFloat(16)

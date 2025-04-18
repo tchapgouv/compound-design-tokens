@@ -72,17 +72,27 @@ async function setupDictionary(sb: StyleDictionary) {
 }
 
 export async function themed(theme: Theme, platform: Platform) {
-  const sb = new StyleDictionary(
-    await getStyleDictionaryConfig(theme, platform),
-  );
+  const config = await getStyleDictionaryConfig(theme, platform);
+  const sb = new StyleDictionary({
+    ...config,
+    log: {
+      ...config.log,
+      verbosity: 'verbose'
+    }
+  });
   await setupDictionary(sb);
   return sb;
 }
 
 export async function common(platform: Platform) {
-  const sb = new StyleDictionary(
-    await getStyleDictionaryCommonConfig(platform),
-  );
+  const config = await getStyleDictionaryCommonConfig(platform);
+  const sb = new StyleDictionary({
+    ...config,
+    log: {
+      ...config.log,
+      verbosity: 'verbose'
+    }
+  });
   await setupDictionary(sb);
   return sb;
 }

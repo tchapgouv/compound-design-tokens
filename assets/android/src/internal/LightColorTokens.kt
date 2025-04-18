@@ -184,7 +184,7 @@ object LightColorTokens {
     val colorBlue1400 = Color(0xff00006b)
     val colorBlue200 = Color(0xfff6f5fc)
     val colorBlue300 = Color(0xfff2f1f8)
-    val colorBlue400 = Color(0xffe1e0f9)
+    val colorBlue400 = Color(0xffe3e3fd)
     val colorBlue500 = Color(0xffcfcff9)
     val colorBlue600 = Color(0xffbebdfa)
     val colorBlue700 = Color(0xffacacfa)

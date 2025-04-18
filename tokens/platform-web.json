@@ -8,6 +8,10 @@
       "mono": {
         "value": "Inconsolata",
         "type": "fontFamilies"
+      },
+      "tchap": {
+        "value": "Marianne",
+        "type": "fontFamilies"
       }
     },
     "weight": {
@@ -21,6 +25,10 @@
       },
       "semibold": {
         "value": "600",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "700",
         "type": "fontWeights"
       }
     },
@@ -256,7 +264,7 @@
             "fontWeight": "{font.weight.regular}",
             "fontSize": "{font.size.heading.sm}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.sm}"
           },
           "type": "typography"
@@ -266,7 +274,7 @@
             "fontWeight": "{font.weight.medium}",
             "fontSize": "{font.size.heading.sm}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.sm}"
           },
           "type": "typography"
@@ -276,7 +284,17 @@
             "fontWeight": "{font.weight.semibold}",
             "fontSize": "{font.size.heading.sm}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
+            "letterSpacing": "{font.letter-spacing.heading.sm}"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.heading.sm}",
+            "lineHeight": "{font.line-height.tight}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.sm}"
           },
           "type": "typography"
@@ -288,7 +306,7 @@
             "fontWeight": "{font.weight.regular}",
             "fontSize": "{font.size.heading.md}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.md}"
           },
           "type": "typography"
@@ -298,7 +316,17 @@
             "fontWeight": "{font.weight.semibold}",
             "fontSize": "{font.size.heading.md}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
+            "letterSpacing": "{font.letter-spacing.heading.md}"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.heading.md}",
+            "lineHeight": "{font.line-height.tight}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.md}"
           },
           "type": "typography"
@@ -310,7 +338,7 @@
             "fontWeight": "{font.weight.regular}",
             "fontSize": "{font.size.heading.lg}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.lg}"
           },
           "type": "typography"
@@ -320,7 +348,17 @@
             "fontWeight": "{font.weight.semibold}",
             "fontSize": "{font.size.heading.lg}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
+            "letterSpacing": "{font.letter-spacing.heading.lg}"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.heading.lg}",
+            "lineHeight": "{font.line-height.tight}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.lg}"
           },
           "type": "typography"
@@ -332,7 +370,7 @@
             "fontWeight": "{font.weight.regular}",
             "fontSize": "{font.size.heading.xl}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.xl}"
           },
           "type": "typography"
@@ -342,7 +380,17 @@
             "fontWeight": "{font.weight.semibold}",
             "fontSize": "{font.size.heading.xl}",
             "lineHeight": "{font.line-height.tight}",
-            "fontFamily": "{font.family.sans}",
+            "fontFamily": "{font.family.tchap}",
+            "letterSpacing": "{font.letter-spacing.heading.xl}"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.heading.xl}",
+            "lineHeight": "{font.line-height.tight}",
+            "fontFamily": "{font.family.tchap}",
             "letterSpacing": "{font.letter-spacing.heading.xl}"
           },
           "type": "typography"
