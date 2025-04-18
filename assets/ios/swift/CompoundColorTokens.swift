@@ -71,8 +71,8 @@ public class CompoundColorTokens {
     public let textDecorative5 = CompoundCoreColorTokens.pink1100
     public let textDecorative6 = CompoundCoreColorTokens.orange1100
     public let textDisabled = CompoundCoreColorTokens.gray800
-    public let textInfoPrimary = CompoundCoreColorTokens.blue900
-    public let textLinkExternal = CompoundCoreColorTokens.blue900
+    public let textInfoPrimary = CompoundCoreColorTokens.blue1100
+    public let textLinkExternal = CompoundCoreColorTokens.blue1100
     public let textOnSolidPrimary = CompoundCoreColorTokens.themeBg
     public let textPrimary = CompoundCoreColorTokens.gray1400
     public let textSecondary = CompoundCoreColorTokens.gray900
