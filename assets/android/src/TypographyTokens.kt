@@ -45,6 +45,15 @@ object TypographyTokens {
         platformStyle = PlatformTextStyle(includeFontPadding = false),
         lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
     )
+    val fontBodyLgSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
+        lineHeight = 22.sp,
+        fontSize = 16.sp,
+        letterSpacing = 0.015625.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
     val fontBodyMdMedium = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W500,
@@ -57,6 +66,15 @@ object TypographyTokens {
     val fontBodyMdRegular = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W400,
+        lineHeight = 20.sp,
+        fontSize = 14.sp,
+        letterSpacing = 0.017857.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
+    val fontBodyMdSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
         lineHeight = 20.sp,
         fontSize = 14.sp,
         letterSpacing = 0.017857.em,
@@ -81,6 +99,15 @@ object TypographyTokens {
         platformStyle = PlatformTextStyle(includeFontPadding = false),
         lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
     )
+    val fontBodySmSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
+        lineHeight = 17.sp,
+        fontSize = 12.sp,
+        letterSpacing = 0.033333.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
     val fontBodyXsMedium = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W500,
@@ -93,6 +120,15 @@ object TypographyTokens {
     val fontBodyXsRegular = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W400,
+        lineHeight = 15.sp,
+        fontSize = 11.sp,
+        letterSpacing = 0.045454.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
+    val fontBodyXsSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
         lineHeight = 15.sp,
         fontSize = 11.sp,
         letterSpacing = 0.045454.em,
@@ -117,6 +153,15 @@ object TypographyTokens {
         platformStyle = PlatformTextStyle(includeFontPadding = false),
         lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
     )
+    val fontHeadingLgSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
+        lineHeight = 34.sp,
+        fontSize = 28.sp,
+        letterSpacing = 0.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
     val fontHeadingMdBold = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W700,
@@ -131,6 +176,24 @@ object TypographyTokens {
         fontWeight = FontWeight.W400,
         lineHeight = 27.sp,
         fontSize = 22.sp,
+        letterSpacing = 0.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
+    val fontHeadingMdSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
+        lineHeight = 27.sp,
+        fontSize = 22.sp,
+        letterSpacing = 0.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
+    val fontHeadingSmBold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W700,
+        lineHeight = 25.sp,
+        fontSize = 20.sp,
         letterSpacing = 0.em,
         platformStyle = PlatformTextStyle(includeFontPadding = false),
         lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
@@ -153,6 +216,15 @@ object TypographyTokens {
         platformStyle = PlatformTextStyle(includeFontPadding = false),
         lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
     )
+    val fontHeadingSmSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
+        lineHeight = 25.sp,
+        fontSize = 20.sp,
+        letterSpacing = 0.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
     val fontHeadingXlBold = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W700,
@@ -165,6 +237,15 @@ object TypographyTokens {
     val fontHeadingXlRegular = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W400,
+        lineHeight = 41.sp,
+        fontSize = 34.sp,
+        letterSpacing = 0.em,
+        platformStyle = PlatformTextStyle(includeFontPadding = false),
+        lineHeightStyle = LineHeightStyle(LineHeightStyle.Alignment.Center, LineHeightStyle.Trim.None)
+    )
+    val fontHeadingXlSemibold = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W600,
         lineHeight = 41.sp,
         fontSize = 34.sp,
         letterSpacing = 0.em,

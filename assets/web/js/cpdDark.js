@@ -34,9 +34,11 @@ export const cpdBorderWidth0_5 = "0.5px";
 export const cpdFontFamilySans =
   'Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
 export const cpdFontFamilyMono = "Inconsolata, ui-monospace, monospace";
+export const cpdFontFamilyTchap = "Marianne";
 export const cpdFontWeightRegular = "400";
 export const cpdFontWeightMedium = "500";
 export const cpdFontWeightSemibold = "600";
+export const cpdFontWeightBold = "700";
 export const cpdFontLineHeightMinimum = "1";
 export const cpdFontLineHeightTight = "1.25";
 export const cpdFontLineHeightRegular = "1.5";
@@ -81,24 +83,19 @@ export const cpdFontBodyLgMedium =
   '500 1.0625rem/1.5 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
 export const cpdFontBodyLgSemibold =
   '600 1.0625rem/1.5 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingSmRegular =
-  '400 1.25rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingSmMedium =
-  '500 1.25rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingSmSemibold =
-  '600 1.25rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingMdRegular =
-  '400 1.5rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingMdSemibold =
-  '600 1.5rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingLgRegular =
-  '400 1.75rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingLgSemibold =
-  '600 1.75rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingXlRegular =
-  '400 2rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
-export const cpdFontHeadingXlSemibold =
-  '600 2rem/1.25 Inter, "Inter Fallback: Helvetica Neue", "Inter Fallback: Segoe UI", "Inter Fallback: Roboto", "Inter Fallback: Ubuntu", "Inter Fallback: Fira Sans", "Inter Fallback: Noto Sans", "Inter Fallback: Arial", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, "Fira Sans", "Noto Sans", Arial, sans-serif';
+export const cpdFontHeadingSmRegular = "400 1.25rem/1.25 Marianne";
+export const cpdFontHeadingSmMedium = "500 1.25rem/1.25 Marianne";
+export const cpdFontHeadingSmSemibold = "600 1.25rem/1.25 Marianne";
+export const cpdFontHeadingSmBold = "700 1.25rem/1.25 Marianne";
+export const cpdFontHeadingMdRegular = "400 1.5rem/1.25 Marianne";
+export const cpdFontHeadingMdSemibold = "600 1.5rem/1.25 Marianne";
+export const cpdFontHeadingMdBold = "700 1.5rem/1.25 Marianne";
+export const cpdFontHeadingLgRegular = "400 1.75rem/1.25 Marianne";
+export const cpdFontHeadingLgSemibold = "600 1.75rem/1.25 Marianne";
+export const cpdFontHeadingLgBold = "700 1.75rem/1.25 Marianne";
+export const cpdFontHeadingXlRegular = "400 2rem/1.25 Marianne";
+export const cpdFontHeadingXlSemibold = "600 2rem/1.25 Marianne";
+export const cpdFontHeadingXlBold = "700 2rem/1.25 Marianne";
 export const cpdIconErrorSolid = "icons/error-solid.svg";
 export const cpdIconPublic = "icons/public.svg";
 export const cpdIconClose = "icons/close.svg";
@@ -614,10 +611,10 @@ export const cpdColorTextSecondary = "#808994";
 export const cpdColorTextDisabled = "#656c76";
 export const cpdColorTextActionPrimary = "#ebeef2";
 export const cpdColorTextActionAccent = "#a1c4f8";
-export const cpdColorTextLinkExternal = "#4187eb";
+export const cpdColorTextLinkExternal = "#7aacf4";
 export const cpdColorTextCriticalPrimary = "#fd3e3c";
 export const cpdColorTextSuccessPrimary = "#129a78";
-export const cpdColorTextInfoPrimary = "#4187eb";
+export const cpdColorTextInfoPrimary = "#7aacf4";
 export const cpdColorTextOnSolidPrimary = "#101317";
 export const cpdColorTextDecorative1 = "#56c02c";
 export const cpdColorTextDecorative2 = "#21bacd";
@@ -627,7 +624,7 @@ export const cpdColorTextDecorative5 = "#fe84a2";
 export const cpdColorTextDecorative6 = "#f6913d";
 export const cpdColorTextBadgeAccent = "#1fc090";
 export const cpdColorTextBadgeInfo = "#7aacf4";
-export const cpdColorBgSubtlePrimary = "#26282d";
+export const cpdColorBgSubtlePrimary = "#001e6f";
 export const cpdColorBgSubtleSecondary = "#1d1f24";
 export const cpdColorBgCanvasDefault = "#101317";
 export const cpdColorBgCanvasDisabled = "#181a1f";
@@ -635,7 +632,7 @@ export const cpdColorBgCanvasDefaultLevel1 = "#1d1f24";
 export const cpdColorBgActionPrimaryRest = "#a1c4f8";
 export const cpdColorBgActionPrimaryHovered = "#7aacf4";
 export const cpdColorBgActionPrimaryPressed = "#5e99f0";
-export const cpdColorBgActionPrimaryDisabled = "#0e67d9";
+export const cpdColorBgActionPrimaryDisabled = "#4187eb";
 export const cpdColorBgActionSecondaryRest = "#101317";
 export const cpdColorBgActionSecondaryHovered = "hsla(286, 31%, 82%, 0.04)";
 export const cpdColorBgActionSecondaryPressed = "hsla(280, 41%, 90%, 0.06)";
@@ -667,7 +664,7 @@ export const cpdColorBorderCriticalHovered = "#ff665d";
 export const cpdColorBorderCriticalSubtle = "#710000";
 export const cpdColorBorderSuccessSubtle = "#003d29";
 export const cpdColorBorderInfoSubtle = "#062d80";
-export const cpdColorIconPrimary = "#a1c4f8";
+export const cpdColorIconPrimary = "#ebeef2";
 export const cpdColorIconSecondary = "#808994";
 export const cpdColorIconTertiary = "#656c76";
 export const cpdColorIconQuaternary = "#4a4f55";
@@ -679,6 +676,6 @@ export const cpdColorIconQuaternaryAlpha = "hsla(213, 85%, 95%, 0.27)";
 export const cpdColorIconAccentTertiary = "#a1c4f8";
 export const cpdColorIconAccentPrimary = "#e4eefe";
 export const cpdColorIconCriticalPrimary = "#fd3e3c";
-export const cpdColorIconSuccessPrimary = "#129a78";
+export const cpdColorIconSuccessPrimary = "#a1c4f8";
 export const cpdColorIconInfoPrimary = "#4187eb";
 export const cpdColorIconOnSolidPrimary = "#101317";

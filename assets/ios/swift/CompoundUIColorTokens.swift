@@ -9,7 +9,7 @@ public class CompoundUIColorTokens {
     public let bgAccentHovered = CompoundCoreUIColorTokens.blue1000
     public let bgAccentPressed = CompoundCoreUIColorTokens.blue1100
     public let bgAccentRest = CompoundCoreUIColorTokens.blue900
-    public let bgActionPrimaryDisabled = CompoundCoreUIColorTokens.blue800
+    public let bgActionPrimaryDisabled = CompoundCoreUIColorTokens.blue900
     public let bgActionPrimaryHovered = CompoundCoreUIColorTokens.blue1100
     public let bgActionPrimaryPressed = CompoundCoreUIColorTokens.blue1000
     public let bgActionPrimaryRest = CompoundCoreUIColorTokens.blue1200
@@ -31,7 +31,7 @@ public class CompoundUIColorTokens {
     public let bgDecorative5 = CompoundCoreUIColorTokens.pink300
     public let bgDecorative6 = CompoundCoreUIColorTokens.orange300
     public let bgInfoSubtle = CompoundCoreUIColorTokens.blue200
-    public let bgSubtlePrimary = CompoundCoreUIColorTokens.gray400
+    public let bgSubtlePrimary = CompoundCoreUIColorTokens.blue400
     public let bgSubtleSecondary = CompoundCoreUIColorTokens.gray300
     public let bgSuccessSubtle = CompoundCoreUIColorTokens.green200
     public let borderCriticalHovered = CompoundCoreUIColorTokens.red1000
@@ -50,13 +50,13 @@ public class CompoundUIColorTokens {
     public let iconDisabled = CompoundCoreUIColorTokens.gray700
     public let iconInfoPrimary = CompoundCoreUIColorTokens.blue900
     public let iconOnSolidPrimary = CompoundCoreUIColorTokens.themeBg
-    public let iconPrimary = CompoundCoreUIColorTokens.blue1200
+    public let iconPrimary = CompoundCoreUIColorTokens.gray1400
     public let iconPrimaryAlpha = CompoundCoreUIColorTokens.alphaGray1400
     public let iconQuaternary = CompoundCoreUIColorTokens.gray700
     public let iconQuaternaryAlpha = CompoundCoreUIColorTokens.alphaGray700
     public let iconSecondary = CompoundCoreUIColorTokens.gray900
     public let iconSecondaryAlpha = CompoundCoreUIColorTokens.alphaGray900
-    public let iconSuccessPrimary = CompoundCoreUIColorTokens.green900
+    public let iconSuccessPrimary = CompoundCoreUIColorTokens.blue1200
     public let iconTertiary = CompoundCoreUIColorTokens.gray800
     public let iconTertiaryAlpha = CompoundCoreUIColorTokens.alphaGray800
     public let textActionAccent = CompoundCoreUIColorTokens.blue1200
@@ -71,8 +71,8 @@ public class CompoundUIColorTokens {
     public let textDecorative5 = CompoundCoreUIColorTokens.pink1100
     public let textDecorative6 = CompoundCoreUIColorTokens.orange1100
     public let textDisabled = CompoundCoreUIColorTokens.gray800
-    public let textInfoPrimary = CompoundCoreUIColorTokens.blue900
-    public let textLinkExternal = CompoundCoreUIColorTokens.blue900
+    public let textInfoPrimary = CompoundCoreUIColorTokens.blue1100
+    public let textLinkExternal = CompoundCoreUIColorTokens.blue1100
     public let textOnSolidPrimary = CompoundCoreUIColorTokens.themeBg
     public let textPrimary = CompoundCoreUIColorTokens.gray1400
     public let textSecondary = CompoundCoreUIColorTokens.gray900
