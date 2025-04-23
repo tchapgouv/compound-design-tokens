@@ -58,5 +58,4 @@ export async function embedFonts(platform: Platform) {
     }
 
     console.log('✔︎ Fonts embedded for platform: %s', platform);
-
 }
