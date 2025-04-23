@@ -13,17 +13,17 @@ export async function embedFonts(platform: Platform) {
 
     switch (platform) {
     case "web":
-        srcFolder = "../fonts/web";
+        srcFolder = "../source_assets/fonts/web";
         dstFolder = "../assets/web/fonts";
         authorizedExtensions = [".woff", ".woff2"]; // including leading '.' is mandatory.
         break;
     case "android":
-        srcFolder = "../fonts/desktop";
+        srcFolder = "../source_assets/fonts/desktop";
         dstFolder = "../assets/android/res/fonts";
         authorizedExtensions = [".otf"]; // including leading '.' is mandatory.
         break;
     case "ios":
-        srcFolder = "../fonts/desktop";
+        srcFolder = "../source_assets/fonts/desktop";
         dstFolder = "../assets/ios/swift/fonts";
         authorizedExtensions = [".otf"]; // including leading '.' is mandatory.
         break;
