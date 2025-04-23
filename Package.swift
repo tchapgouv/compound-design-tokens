@@ -9,6 +9,6 @@ let package = Package(
         .library(name: "CompoundDesignTokens", targets: ["CompoundDesignTokens"])
     ],
     targets: [
-        .target(name: "CompoundDesignTokens", path: "assets/ios/swift", resources: [.process("fonts")])
+        .target(name: "CompoundDesignTokens", path: "assets/ios/swift", resources: [.copy("fonts")])
     ]
 )
