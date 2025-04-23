@@ -11,7 +11,7 @@ import * as setupStyleDictionary from "./src/setupStyleDictionary";
 import { generateCssIndex } from "./src/utils/generateCssIndex";
 import generateIconComponents from "./src/utils/generateIconComponents";
 import { normalizeTokens } from "./src/utils/normalizeTokens";
-import { embedFonts } from "./src/embedFonts";
+import { embedResources } from "./src/embedResources";
 
 const themes: Theme[] = ["light", "light-hc", "dark", "dark-hc"];
 const platforms: Platform[] = ["web", "android", "ios"];
@@ -28,5 +28,5 @@ for (const platform of platforms) {
   const sb = await setupStyleDictionary.common(platform);
   sb.buildAllPlatforms();
 
-  embedFonts(platform);
+  embedResources(platform);
 }
