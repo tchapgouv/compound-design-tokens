@@ -11,6 +11,8 @@ package <%= options.packageName %>
 %>
 
 <%= options.isInternal ? "internal " : "" %>object <%= options.className %> {
+    <%= options.getFontName(`marianne`) %>
+
     <%= allTokens.map(function(prop) {
       let comment = "";
       if (prop.comment) {

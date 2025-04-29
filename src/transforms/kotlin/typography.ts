@@ -28,13 +28,7 @@ export default {
       (props, [propName, val]) => {
         let output = props;
         if (textStylePropertiesMapping[propName]) {
-          output += `${ARG_INDENT_LEVEL + textStylePropertiesMapping[propName]} = `;
-          if (propName === "fontFamily") {
-            output += "FontFamily.Default";
-          } else {
-            output += val;
-          }
-          output += ",\n";
+          output += `${ARG_INDENT_LEVEL + textStylePropertiesMapping[propName]} = ${val},\n`;
         }
 
         return output;
