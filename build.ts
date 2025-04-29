@@ -7,11 +7,11 @@ Please see LICENSE files in the repository root for full details.
 */
 
 import type { Platform, Theme } from "./src/@types/index";
+import { embedResources } from "./src/embedResources";
 import * as setupStyleDictionary from "./src/setupStyleDictionary";
 import { generateCssIndex } from "./src/utils/generateCssIndex";
 import generateIconComponents from "./src/utils/generateIconComponents";
 import { normalizeTokens } from "./src/utils/normalizeTokens";
-import { embedResources } from "./src/embedResources";
 
 const themes: Theme[] = ["light", "light-hc", "dark", "dark-hc"];
 const platforms: Platform[] = ["web", "android", "ios"];

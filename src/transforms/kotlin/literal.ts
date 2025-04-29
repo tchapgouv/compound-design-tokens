@@ -18,5 +18,6 @@ export default {
     const attrs = token.attributes ?? {};
     return attrs.category === "font" && attrs.type === "family";
   },
-  transform: (token: TransformedToken): string => `"${token.value}"`,
+  transform: (token: TransformedToken): string =>
+    `${token.value === "Roboto" ? "FontFamily.Default" : token.value.toLowerCase()}`,
 } satisfies Transform;

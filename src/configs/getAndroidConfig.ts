@@ -95,6 +95,26 @@ function getIconName(iconName: string): string {
   return camelCaseName.charAt(0).toUpperCase() + camelCaseName.slice(1);
 }
 
+function getFontName(fontName: string): string {
+  const ARG_INDENT_LEVEL = ANDROID_INDENT_LEVEL + ANDROID_INDENT_LEVEL;
+  const fontWeights = {
+    thin: "Thin",
+    light: "Light",
+    regular: "Normal",
+    medium: "Medium",
+    bold: "Bold",
+    extrabold: "ExtraBold",
+  };
+  const fontEntries = Object.entries(fontWeights)
+    .map(
+      ([weight, fontWeight]) =>
+        `${ARG_INDENT_LEVEL}Font(R.font.${fontName}_${weight}, FontWeight.${fontWeight}),`,
+    )
+    .join("\n");
+
+  return `private val ${fontName} = FontFamily(\n${fontEntries}\n${ANDROID_INDENT_LEVEL})`;
+}
+
 export function getAndroidConfig(theme: Theme): PlatformConfig {
   StyleDictionary.registerFormat({
     name: "compose/internal-object",
@@ -264,10 +284,13 @@ export function getCommonAndroidConfig(): PlatformConfig {
             "androidx.compose.ui.unit.em",
             "androidx.compose.ui.unit.sp",
             "androidx.compose.ui.text.PlatformTextStyle",
+            "androidx.compose.ui.text.font.Font",
             "androidx.compose.ui.text.style.LineHeightStyle",
+            packageNameR,
           ],
           className: "TypographyTokens",
           packageName,
+          getFontName,
         }),
       },
     ],

@@ -77,8 +77,8 @@ export async function themed(theme: Theme, platform: Platform) {
     ...config,
     log: {
       ...config.log,
-      verbosity: 'verbose'
-    }
+      verbosity: "verbose",
+    },
   });
   await setupDictionary(sb);
   return sb;
@@ -90,8 +90,8 @@ export async function common(platform: Platform) {
     ...config,
     log: {
       ...config.log,
-      verbosity: 'verbose'
-    }
+      verbosity: "verbose",
+    },
   });
   await setupDictionary(sb);
   return sb;
