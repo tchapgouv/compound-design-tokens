@@ -353,7 +353,7 @@
         "semibold": {
           "value": {
             "fontFamily": "{font.family.tchap}",
-            "fontWeight": "{font.weight.semibold}",
+            "fontWeight": "{font.weight.bold}",
             "lineHeight": "{font.line-height.heading.md.regular}",
             "fontSize": "{font.size.heading.md}",
             "letterSpacing": "{font.letter-spacing.heading.md}"
