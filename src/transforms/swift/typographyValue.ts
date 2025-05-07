@@ -29,26 +29,21 @@ export default {
       paragraphIndent: "textIndent",
     };
 
-    interface StringIndexableObj { [key: string]: any; }
-
-    const filterKeys = ['fontFamily', 'fontWeight', 'fontSize']
+    const filterKeys: string[] = ["fontFamily", "fontWeight", "fontSize"];
 
     let output = "";
 
-    let callback = (accumulator: StringIndexableObj, item: {[key: string]: any}) => {
-      const key = item[0];
-      const value = item[1];
+    const filteredProps: Record<string, string> = {};
+
+    for (const key in token.value) {
+      const value = token.value[key];
 
       const textStyleProperty = textStylePropertiesMapping[key];
 
       if (textStyleProperty && filterKeys.includes(textStyleProperty)) {
-        accumulator[textStyleProperty] = value;
+        filteredProps[textStyleProperty] = value;
       }
-
-      return accumulator;
-    };
-
-    const filteredProps = Object.entries(token.value).reduce(callback, {} as StringIndexableObj);
+    }
 
     const fontFamily = filteredProps.fontFamily;
     const fontWeight = filteredProps.fontWeight;
@@ -59,5 +54,5 @@ export default {
     }
 
     return output;
-  } 
+  },
 } satisfies Transform;

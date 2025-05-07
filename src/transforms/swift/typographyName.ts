@@ -23,24 +23,25 @@ export default {
      * Mapping between https://docs.tokens.studio/available-tokens/typography-tokens
      */
 
-    interface StringIndexableObj { [key: string]: any; }
-
-    const fontSizeTokens: StringIndexableObj = {'Xl': 'XL', 'Lg': 'LG',  'Md': 'MD', 'Sm': 'SM', 'Xs': 'XS'};
+    const fontSizeTokens: Record<string, string> = {
+      Xl: "XL",
+      Lg: "LG",
+      Md: "MD",
+      Sm: "SM",
+      Xs: "XS",
+    };
 
     // Remove 'font' prefix.
-    let varName = token.name.replace(/^(font)/, '');
+    let varName = token.name.replace(/^(font)/, "");
     // Lowercase first letter.
     varName = varName.charAt(0).toLowerCase() + varName.slice(1);
     // Replace font size token.
-    (Object.entries(fontSizeTokens) as StringIndexableObj).forEach(
-      (param: string[]) => {
-        varName = varName.replace(param[0], param[1]);
-      }
-    );
+    for (const key in fontSizeTokens) {
+      varName = varName.replace(key, fontSizeTokens[key]);
+    }
     // Remove 'Regular' suffix.
-    varName = varName.replace(/(Regular)$/, '')
+    varName = varName.replace(/(Regular)$/, "");
 
     return varName;
   },
 } satisfies Transform;
-  

@@ -23,6 +23,7 @@ import {
 } from "../transforms/swift/colorAsset";
 import createTemplate from "../utils/createTemplate";
 import isTypographyToken from "../filters/isTypographyToken";
+import createTemplate from "../utils/createTemplate";
 
 const coreColorClass = "CompoundCoreColorTokens";
 const coreUIColorClass = "CompoundCoreUIColorTokens";
@@ -223,17 +224,16 @@ export function getCommonIOSConfig(): PlatformConfig {
         },
       },
       {
-        filter: (token: TransformedToken) =>
-          isTypographyToken.filter(token),
-          destination: "TypographyTokens.swift",
-          format: "swift/class-members",
-          options:{
-            showFileHeader: false,
-            outputReferences: true,
-            import: ["SwiftUI"],
-            objectType: "struct",
-            accessControl: "public",
-            className: "CompoundFonts",
+        filter: (token: TransformedToken) => isTypographyToken.filter(token),
+        destination: "TypographyTokens.swift",
+        format: "swift/class-members",
+        options: {
+          showFileHeader: false,
+          outputReferences: true,
+          import: ["SwiftUI"],
+          objectType: "struct",
+          accessControl: "public",
+          className: "CompoundFonts",
         },
       },
     ],
