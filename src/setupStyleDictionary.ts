@@ -29,8 +29,6 @@ import pxToDp from "./transforms/kotlin/pxToDp";
 import pxToSp from "./transforms/kotlin/pxToSp";
 import svgToDrawable from "./transforms/kotlin/svgToDrawable";
 import typography from "./transforms/kotlin/typography";
-import iosTypographyName from "./transforms/swift/typographyName";
-import iosTypographyValue from "./transforms/swift/typographyValue";
 import pxToRem from "./transforms/pxToRem";
 import coreColorSet from "./transforms/swift/coreColorSet";
 import coreUIColorSet from "./transforms/swift/coreUIColorSet";
@@ -39,6 +37,8 @@ import pxToCGFloat from "./transforms/swift/pxToCGFloat";
 import svgToImageView from "./transforms/swift/svgToImageView";
 import toFontWeight from "./transforms/swift/toFontWeight";
 import tokenTICamel from "./transforms/swift/tokenTICamel";
+import iosTypographyName from "./transforms/swift/typographyName";
+import iosTypographyValue from "./transforms/swift/typographyValue";
 
 async function setupDictionary(sb: StyleDictionary) {
   await register(StyleDictionary);

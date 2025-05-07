@@ -15,8 +15,8 @@ import type {
 import type { Theme } from "../@types";
 import iosExclude from "../filters/ios/exclude";
 import { isCoreColor, isNotCoreColor } from "../filters/isCoreColor";
-import createTemplate from "../utils/createTemplate";
 import isTypographyToken from "../filters/isTypographyToken";
+import createTemplate from "../utils/createTemplate";
 
 function swiftClassMembers(args: FormatFnArguments) {
   return createTemplate(
@@ -184,17 +184,16 @@ export function getCommonIOSConfig(): PlatformConfig {
         },
       },
       {
-        filter: (token: TransformedToken) =>
-          isTypographyToken.filter(token),
-          destination: "TypographyTokens.swift",
-          format: "swift/class-members",
-          options:{
-            showFileHeader: false,
-            outputReferences: true,
-            import: ["SwiftUI"],
-            objectType: "struct",
-            accessControl: "public",
-            className: "CompoundFonts",
+        filter: (token: TransformedToken) => isTypographyToken.filter(token),
+        destination: "TypographyTokens.swift",
+        format: "swift/class-members",
+        options: {
+          showFileHeader: false,
+          outputReferences: true,
+          import: ["SwiftUI"],
+          objectType: "struct",
+          accessControl: "public",
+          className: "CompoundFonts",
         },
       },
     ],
