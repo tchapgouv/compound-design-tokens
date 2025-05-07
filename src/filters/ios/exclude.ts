@@ -15,7 +15,8 @@ export default {
   name: "ios/exclude",
   filter: (token: TransformedToken): boolean => {
     const attrs = token.attributes ?? {};
-    const isTypography = token.type === "typography";
+    // const isTypography = token.type === "typography";
+    const isTypography = false;
     const isLetterSpacing =
       attrs.category === "font" && attrs.type === "letter-spacing";
     return !isTypography && !isLetterSpacing;
