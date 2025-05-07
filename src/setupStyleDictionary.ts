@@ -29,6 +29,8 @@ import pxToDp from "./transforms/kotlin/pxToDp";
 import pxToSp from "./transforms/kotlin/pxToSp";
 import svgToDrawable from "./transforms/kotlin/svgToDrawable";
 import typography from "./transforms/kotlin/typography";
+import iosTypographyName from "./transforms/swift/typographyName";
+import iosTypographyValue from "./transforms/swift/typographyValue";
 import pxToRem from "./transforms/pxToRem";
 import {
   coreColorAsset,
@@ -60,6 +62,8 @@ async function setupDictionary(sb: StyleDictionary) {
   sb.registerTransform(pxToSp);
   sb.registerTransform(percentageToEm);
   sb.registerTransform(typography);
+  sb.registerTransform(iosTypographyName);
+  sb.registerTransform(iosTypographyValue);
   sb.registerTransform(pxToRem);
   sb.registerTransform(percentageToUnitless);
   sb.registerTransform(iconsImport);

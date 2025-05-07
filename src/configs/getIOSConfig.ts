@@ -22,6 +22,7 @@ import {
   uiColorAssetInit,
 } from "../transforms/swift/colorAsset";
 import createTemplate from "../utils/createTemplate";
+import isTypographyToken from "../filters/isTypographyToken";
 
 const coreColorClass = "CompoundCoreColorTokens";
 const coreUIColorClass = "CompoundCoreUIColorTokens";
@@ -188,6 +189,8 @@ export function getCommonIOSConfig(): PlatformConfig {
       "swift/toFontWeight",
       "swift/svgToImageView",
       "ts/resolveMath",
+      "swift/typography/name",
+      "swift/typography/value",
     ],
     buildPath: "assets/ios/swift/",
     files: [
@@ -208,6 +211,7 @@ export function getCommonIOSConfig(): PlatformConfig {
         filter: (token: TransformedToken) =>
           token.type !== "color" &&
           token.type !== "icon" &&
+          token.type !== "typography" &&
           iosExclude.filter(token),
         destination: "CompoundDesignTokens.swift",
         format: "ios-swift/class.swift",
@@ -216,6 +220,20 @@ export function getCommonIOSConfig(): PlatformConfig {
           outputReferences: true,
           import: "SwiftUI",
           className: "CompoundDesignTokens",
+        },
+      },
+      {
+        filter: (token: TransformedToken) =>
+          isTypographyToken.filter(token),
+          destination: "TypographyTokens.swift",
+          format: "swift/class-members",
+          options:{
+            showFileHeader: false,
+            outputReferences: true,
+            import: ["SwiftUI"],
+            objectType: "struct",
+            accessControl: "public",
+            className: "CompoundFonts",
         },
       },
     ],
