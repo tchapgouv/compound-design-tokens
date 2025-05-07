@@ -25,6 +25,10 @@ export default {
         return "Font.Weight.bold";
       case "600":
         return "Font.Weight.semibold";
+      case "500":
+        return "Font.Weight.medium";
+      case "400":
+        return "Font.Weight.regular";
       default:
         return "Font.Weight.regular";
     }
