@@ -50,7 +50,12 @@ export default {
     const fontSize = filteredProps.fontSize;
 
     if (fontFamily && fontWeight && fontSize) {
-      output = `Font.custom(CompoundDesignTokens.${fontFamily}, size: CompoundDesignTokens.${fontSize}).weight(CompoundDesignTokens.${fontWeight})`;
+      // On iOS, system font "SF Pro" is only usable through `Font.system(…)` calls.
+      if (fontFamily === '"SF Pro"') {
+        output = `Font.system(size: UIFontMetrics.default.scaledValue(for: CompoundDesignTokens.${fontSize}), weight: CompoundDesignTokens.${fontWeight})`;
+      } else {
+        output = `Font.custom(CompoundDesignTokens.${fontFamily}, size: CompoundDesignTokens.${fontSize}).weight(CompoundDesignTokens.${fontWeight})`;
+      }
     }
 
     return output;
