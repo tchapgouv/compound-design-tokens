@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 
 // from: https://jacobzivandesign.com/technology/custom-fonts-from-swift-package/
-public struct CompoundDesignTokensResources {
+public enum CompoundDesignTokensResources {
     fileprivate static func registerFont(fontURL: URL) {
         guard let fontDataProvider = CGDataProvider(url: fontURL as CFURL),
             let fontRef = CGFont(fontDataProvider) else {
@@ -23,8 +23,23 @@ public struct CompoundDesignTokensResources {
     }
 
     public static func registerFonts() {
+        print("[CompoundDesignTokensResources]: Register fonts")
         Bundle.module.urls(forResourcesWithExtension: nil, subdirectory: "fonts")?.forEach {
             registerFont(fontURL: $0)
         }
+    }
+    
+    fileprivate static let navigationBarTitleFont = UIFont(name: "Marianne-Medium", size: 16.0)!
+    fileprivate static let navigationBarLargeTitleFont = UIFont(name: "Marianne-Medium", size: 21.0)!
+    
+    public static func setAppearance() {
+        let appearanceAttributes = UINavigationBarAppearance()
+        
+        appearanceAttributes.titleTextAttributes = [.font: navigationBarTitleFont]
+        appearanceAttributes.largeTitleTextAttributes = [.font: navigationBarLargeTitleFont]
+        
+        UINavigationBar.appearance().standardAppearance = appearanceAttributes
+        UINavigationBar.appearance().compactAppearance = appearanceAttributes
+        UINavigationBar.appearance().scrollEdgeAppearance = appearanceAttributes
     }
 }
