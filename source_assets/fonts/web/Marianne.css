@@ -2,9 +2,9 @@
 
 /* Marianne Thin (100) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Thin.woff2') format('woff2'),
-       url('./Marianne-Thin.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Thin.woff2") format("woff2"), url("./Marianne-Thin.woff")
+    format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -12,9 +12,9 @@
 
 /* Marianne Thin Italic (100) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Thin_Italic.woff2') format('woff2'),
-       url('./Marianne-Thin_Italic.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Thin_Italic.woff2") format("woff2"),
+    url("./Marianne-Thin_Italic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -22,9 +22,9 @@
 
 /* Marianne Light (300) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Light.woff2') format('woff2'),
-       url('./Marianne-Light.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Light.woff2") format("woff2"),
+    url("./Marianne-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -32,9 +32,9 @@
 
 /* Marianne Light Italic (300) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Light_Italic.woff2') format('woff2'),
-       url('./Marianne-Light_Italic.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Light_Italic.woff2") format("woff2"),
+    url("./Marianne-Light_Italic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -42,9 +42,9 @@
 
 /* Marianne Regular (400) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Regular.woff2') format('woff2'),
-       url('./Marianne-Regular.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Regular.woff2") format("woff2"),
+    url("./Marianne-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -52,9 +52,9 @@
 
 /* Marianne Regular Italic (400) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Regular_Italic.woff2') format('woff2'),
-       url('./Marianne-Regular_Italic.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Regular_Italic.woff2") format("woff2"),
+    url("./Marianne-Regular_Italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -62,9 +62,9 @@
 
 /* Marianne Medium (500) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Medium.woff2') format('woff2'),
-       url('./Marianne-Medium.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Medium.woff2") format("woff2"),
+    url("./Marianne-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -72,9 +72,9 @@
 
 /* Marianne Medium Italic (500) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Medium_Italic.woff2') format('woff2'),
-       url('./Marianne-Medium_Italic.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Medium_Italic.woff2") format("woff2"),
+    url("./Marianne-Medium_Italic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -82,9 +82,9 @@
 
 /* Marianne Bold (700) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Bold.woff2') format('woff2'),
-       url('./Marianne-Bold.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Bold.woff2") format("woff2"), url("./Marianne-Bold.woff")
+    format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -92,9 +92,9 @@
 
 /* Marianne Bold Italic (700) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-Bold_Italic.woff2') format('woff2'),
-       url('./Marianne-Bold_Italic.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-Bold_Italic.woff2") format("woff2"),
+    url("./Marianne-Bold_Italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -102,9 +102,9 @@
 
 /* Marianne ExtraBold (800) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-ExtraBold.woff2') format('woff2'),
-       url('./Marianne-ExtraBold.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-ExtraBold.woff2") format("woff2"),
+    url("./Marianne-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -112,9 +112,9 @@
 
 /* Marianne ExtraBold Italic (800) */
 @font-face {
-  font-family: 'Marianne';
-  src: url('./Marianne-ExtraBold_Italic.woff2') format('woff2'),
-       url('./Marianne-ExtraBold_Italic.woff') format('woff');
+  font-family: "Marianne";
+  src: url("./Marianne-ExtraBold_Italic.woff2") format("woff2"),
+    url("./Marianne-ExtraBold_Italic.woff") format("woff");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
