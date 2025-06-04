@@ -22,3 +22,4 @@
 @import url("./cpd-theme-dark-hc-base-mq.css") layer(cpd-base) screen and (prefers-color-scheme: dark) and (prefers-contrast: more);
 @import url("./cpd-theme-dark-hc-semantic.css") layer(cpd-semantic) screen;
 @import url("./cpd-theme-dark-hc-semantic-mq.css") layer(cpd-semantic) screen and (prefers-color-scheme: dark) and (prefers-contrast: more);
+@import url("../fonts/Marianne.css");
