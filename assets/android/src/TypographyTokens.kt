@@ -193,7 +193,7 @@ object TypographyTokens {
     )
     val fontHeadingMdSemibold = TextStyle(
         fontFamily = marianne,
-        fontWeight = FontWeight.W600,
+        fontWeight = FontWeight.W700,
         lineHeight = 27.sp,
         fontSize = 22.sp,
         letterSpacing = 0.em,

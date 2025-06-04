@@ -76,7 +76,7 @@
   --cpd-font-heading-sm-semibold: var(--cpd-font-weight-semibold) var(--cpd-font-size-heading-sm)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
   --cpd-font-heading-sm-bold: var(--cpd-font-weight-bold) var(--cpd-font-size-heading-sm)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
   --cpd-font-heading-md-regular: var(--cpd-font-weight-regular) var(--cpd-font-size-heading-md)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
-  --cpd-font-heading-md-semibold: var(--cpd-font-weight-semibold) var(--cpd-font-size-heading-md)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
+  --cpd-font-heading-md-semibold: var(--cpd-font-weight-bold) var(--cpd-font-size-heading-md)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
   --cpd-font-heading-md-bold: var(--cpd-font-weight-bold) var(--cpd-font-size-heading-md)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
   --cpd-font-heading-lg-regular: var(--cpd-font-weight-regular) var(--cpd-font-size-heading-lg)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
   --cpd-font-heading-lg-semibold: var(--cpd-font-weight-semibold) var(--cpd-font-size-heading-lg)/var(--cpd-font-line-height-tight) var(--cpd-font-family-tchap);
