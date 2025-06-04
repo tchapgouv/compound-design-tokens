@@ -23,7 +23,7 @@ public struct CompoundFonts {
     public let headingLGSemibold = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingLg).weight(CompoundDesignTokens.fontWeightSemibold)
     public let headingMD = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingMd).weight(CompoundDesignTokens.fontWeightRegular)
     public let headingMDBold = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingMd).weight(CompoundDesignTokens.fontWeightBold)
-    public let headingMDSemibold = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingMd).weight(CompoundDesignTokens.fontWeightSemibold)
+    public let headingMDSemibold = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingMd).weight(CompoundDesignTokens.fontWeightBold)
     public let headingSM = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingSm).weight(CompoundDesignTokens.fontWeightRegular)
     public let headingSMBold = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingSm).weight(CompoundDesignTokens.fontWeightBold)
     public let headingSMMedium = Font.custom(CompoundDesignTokens.fontFamilyTchap, size: CompoundDesignTokens.fontSizeHeadingSm).weight(CompoundDesignTokens.fontWeightMedium)
