@@ -210,6 +210,7 @@ export const cpdIconRaisedHandSolid: string;
 export const cpdIconAudio: string;
 export const cpdIconSpotlightView: string;
 export const cpdIconListView: string;
+export const cpdIconEarpiece: string;
 export const cpdIconKeyOffSolid: string;
 export const cpdIconCloudSolid: string;
 export const cpdIconKeyOff: string;
