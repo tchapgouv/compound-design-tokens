@@ -30,12 +30,12 @@ import io.element.android.compound.R
 
 object TypographyTokens {
     private val marianne = FontFamily(
-        Font(R.font.marianne_thin, FontWeight.Thin),
-        Font(R.font.marianne_light, FontWeight.Light),
-        Font(R.font.marianne_regular, FontWeight.Normal),
-        Font(R.font.marianne_medium, FontWeight.Medium),
-        Font(R.font.marianne_bold, FontWeight.Bold),
-        Font(R.font.marianne_extrabold, FontWeight.ExtraBold),
+        Font(R.font.mariannethin, FontWeight.Thin),
+        Font(R.font.mariannelight, FontWeight.Light),
+        Font(R.font.marianneregular, FontWeight.Normal),
+        Font(R.font.mariannemedium, FontWeight.Medium),
+        Font(R.font.mariannebold, FontWeight.Bold),
+        Font(R.font.marianneextrabold, FontWeight.ExtraBold),
     )
 
     val fontBodyLgMedium = TextStyle(

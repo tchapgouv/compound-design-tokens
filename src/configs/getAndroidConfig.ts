@@ -108,7 +108,7 @@ function getFontName(fontName: string): string {
   const fontEntries = Object.entries(fontWeights)
     .map(
       ([weight, fontWeight]) =>
-        `${ARG_INDENT_LEVEL}Font(R.font.${fontName}_${weight}, FontWeight.${fontWeight}),`,
+        `${ARG_INDENT_LEVEL}Font(R.font.${fontName}${weight}, FontWeight.${fontWeight}),`,
     )
     .join("\n");
 
