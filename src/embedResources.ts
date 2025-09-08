@@ -19,7 +19,8 @@ async function _embedFonts(platform: Platform) {
     case "web":
       srcFolder = "../source_assets/fonts/web";
       dstFolder = "../assets/web/fonts";
-      authorizedExtensions = [".woff", ".woff2"]; // including leading '.' is mandatory.
+      authorizedExtensions = [".woff", ".woff2", ".css"]; // including leading '.' is mandatory.
+      await _add_font_css_to_index();
       break;
     case "android":
       srcFolder = "../source_assets/fonts/desktop";
@@ -142,4 +143,11 @@ async function _copyFolder(
       return authorizedExtensions.indexOf(path.extname(source)) >= 0;
     },
   });
+}
+async function _add_font_css_to_index() {
+  fs.appendFile(
+    path.join("assets", "web", "css", "compound-design-tokens.css"),
+    `@import url("../fonts/Marianne.css");`,
+    "utf-8",
+  );
 }
