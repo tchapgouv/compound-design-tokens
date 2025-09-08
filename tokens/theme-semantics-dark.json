@@ -12,6 +12,52 @@
           "type": "color",
           "description": "Default global background for the user interface.\nElevation: Level 1."
         }
+      },
+      "badge": {
+        "accent": {
+          "value": "{color.alpha.green.500}",
+          "type": "color",
+          "description": "Badge accent background colour"
+        },
+        "info": {
+          "value": "{color.alpha.blue.500}",
+          "type": "color",
+          "description": "Badge info background colour"
+        },
+        "default": {
+          "value": "{color.alpha.gray.500}",
+          "type": "color",
+          "description": "Badge default background colour"
+        }
+      }
+    },
+    "gradient": {
+      "action": {
+        "stop1": {
+          "value": "{color.green.1100}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons"
+        },
+        "stop2": {
+          "value": "{color.green.900}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons"
+        },
+        "stop3": {
+          "value": "{color.green.700}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons"
+        },
+        "stop4": {
+          "value": "{color.green.500}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons"
+        },
+        "linear": {
+          "value": "{color.blue.1200}",
+          "type": "color",
+          "description": "Intended for super and send buttons. References gradient/action/stop1 -4"
+        }
       }
     }
   }

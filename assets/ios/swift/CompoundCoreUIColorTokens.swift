@@ -315,6 +315,5 @@ public class CompoundCoreUIColorTokens {
     public static let alphaPink1200 = UIColor(named: "alphaPink1200", in: Bundle.module, compatibleWith: nil)!
     public static let alphaPink1300 = UIColor(named: "alphaPink1300", in: Bundle.module, compatibleWith: nil)!
     public static let alphaPink1400 = UIColor(named: "alphaPink1400", in: Bundle.module, compatibleWith: nil)!
-    public static let bgCanvasDefaultLevel1 = gray300
-    public static let bgSubtleSecondaryLevel0 = themeBg
+    public static let transparent = UIColor(named: "transparent", in: Bundle.module, compatibleWith: nil)!
 }

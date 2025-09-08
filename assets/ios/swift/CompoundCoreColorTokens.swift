@@ -315,6 +315,5 @@ public class CompoundCoreColorTokens {
     public static let alphaPink1200 = Color("alphaPink1200", bundle: Bundle.module)
     public static let alphaPink1300 = Color("alphaPink1300", bundle: Bundle.module)
     public static let alphaPink1400 = Color("alphaPink1400", bundle: Bundle.module)
-    public static let bgCanvasDefaultLevel1 = gray300
-    public static let bgSubtleSecondaryLevel0 = themeBg
+    public static let transparent = Color("transparent", bundle: Bundle.module)
 }

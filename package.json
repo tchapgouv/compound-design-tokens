@@ -1,6 +1,6 @@
 {
   "name": "@vector-im/compound-design-tokens",
-  "version": "4.0.2",
+  "version": "5.0.1",
   "description": "Compound design tokens",
   "sideEffects": false,
   "scripts": {
@@ -12,8 +12,16 @@
     "check": "yarn exec biome -- check",
     "types": "yarn exec tsc -- --noEmit"
   },
-  "keywords": ["compound", "design tokens", "style dictionary", "css"],
-  "files": ["./assets/web/**/*", "./icons/**/*"],
+  "keywords": [
+    "compound",
+    "design tokens",
+    "style dictionary",
+    "css"
+  ],
+  "files": [
+    "./assets/web/**/*",
+    "./icons/**/*"
+  ],
   "main": "assets/web/js/index.js",
   "type": "module",
   "exports": {
@@ -49,12 +57,12 @@
     "@babel/generator": "^7.24.7",
     "@babel/plugin-transform-react-jsx": "^7.24.7",
     "@babel/types": "^7.24.7",
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^2.0.0",
     "@capsizecss/core": "^4.1.2",
     "@capsizecss/metrics": "^3.3.0",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
-    "@tokens-studio/sd-transforms": "^1.0.0",
+    "@tokens-studio/sd-transforms": "^2.0.0",
     "@types/babel__core": "^7.20.5",
     "@types/fs-extra": "^11.0.4",
     "@types/lodash-es": "^4.17.12",
@@ -63,9 +71,9 @@
     "http-server": "^14.1.1",
     "lodash-es": "^4.17.21",
     "prettier": "^3.3.3",
-    "style-dictionary": "^4.0.0",
+    "style-dictionary": "^5.0.0",
     "svg2vectordrawable": "^2.9.1",
-    "svgo": "^3.3.2",
+    "svgo": "^4.0.0",
     "tsx": "^4.15.6",
     "typescript": "^5.4.5",
     "undici": "^7.2.0",
