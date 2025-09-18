@@ -1,11 +1,11 @@
 import React from "react";
 
 /**
- * workspace-solid.svg
+ * full-screen.svg
  */
-declare const WorkspaceSolidIcon: React.ForwardRefExoticComponent<
+declare const FullScreenIcon: React.ForwardRefExoticComponent<
     Omit<React.SVGProps<SVGSVGElement>, "ref" | "children"> &
     React.RefAttributes<SVGSVGElement>
 >;
 
-export default WorkspaceSolidIcon;
+export default FullScreenIcon;

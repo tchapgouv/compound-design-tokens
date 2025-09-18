@@ -60,6 +60,7 @@ public class CompoundIcons {
     public let endCall = Image("endCall", bundle: Bundle.module)
     public let error = Image("error", bundle: Bundle.module)
     public let errorSolid = Image("errorSolid", bundle: Bundle.module)
+    public let exitFullScreen = Image("exitFullScreen", bundle: Bundle.module)
     public let expand = Image("expand", bundle: Bundle.module)
     public let explore = Image("explore", bundle: Bundle.module)
     public let exportArchive = Image("exportArchive", bundle: Bundle.module)
@@ -71,6 +72,7 @@ public class CompoundIcons {
     public let files = Image("files", bundle: Bundle.module)
     public let filter = Image("filter", bundle: Bundle.module)
     public let forward = Image("forward", bundle: Bundle.module)
+    public let fullScreen = Image("fullScreen", bundle: Bundle.module)
     public let grid = Image("grid", bundle: Bundle.module)
     public let group = Image("group", bundle: Bundle.module)
     public let guest = Image("guest", bundle: Bundle.module)
@@ -165,6 +167,8 @@ public class CompoundIcons {
     public let shield = Image("shield", bundle: Bundle.module)
     public let sidebar = Image("sidebar", bundle: Bundle.module)
     public let signOut = Image("signOut", bundle: Bundle.module)
+    public let space = Image("space", bundle: Bundle.module)
+    public let spaceSolid = Image("spaceSolid", bundle: Bundle.module)
     public let spinner = Image("spinner", bundle: Bundle.module)
     public let spotlight = Image("spotlight", bundle: Bundle.module)
     public let spotlightView = Image("spotlightView", bundle: Bundle.module)
@@ -204,7 +208,5 @@ public class CompoundIcons {
     public let warning = Image("warning", bundle: Bundle.module)
     public let webBrowser = Image("webBrowser", bundle: Bundle.module)
     public let windows = Image("windows", bundle: Bundle.module)
-    public let workspace = Image("workspace", bundle: Bundle.module)
-    public let workspaceSolid = Image("workspaceSolid", bundle: Bundle.module)
     public init() { }
 }

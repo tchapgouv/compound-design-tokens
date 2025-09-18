@@ -52,6 +52,7 @@ module.exports = {
   EndCallIcon: require("./end-call.cjs"),
   ErrorSolidIcon: require("./error-solid.cjs"),
   ErrorIcon: require("./error.cjs"),
+  ExitFullScreenIcon: require("./exit-full-screen.cjs"),
   ExpandIcon: require("./expand.cjs"),
   ExploreIcon: require("./explore.cjs"),
   ExportArchiveIcon: require("./export-archive.cjs"),
@@ -63,6 +64,7 @@ module.exports = {
   FilesIcon: require("./files.cjs"),
   FilterIcon: require("./filter.cjs"),
   ForwardIcon: require("./forward.cjs"),
+  FullScreenIcon: require("./full-screen.cjs"),
   GridIcon: require("./grid.cjs"),
   GroupIcon: require("./group.cjs"),
   GuestIcon: require("./guest.cjs"),
@@ -158,6 +160,8 @@ module.exports = {
   ShieldIcon: require("./shield.cjs"),
   SidebarIcon: require("./sidebar.cjs"),
   SignOutIcon: require("./sign-out.cjs"),
+  SpaceSolidIcon: require("./space-solid.cjs"),
+  SpaceIcon: require("./space.cjs"),
   SpinnerIcon: require("./spinner.cjs"),
   SpotlightViewIcon: require("./spotlight-view.cjs"),
   SpotlightIcon: require("./spotlight.cjs"),
@@ -196,7 +200,5 @@ module.exports = {
   VolumeOnIcon: require("./volume-on.cjs"),
   WarningIcon: require("./warning.cjs"),
   WebBrowserIcon: require("./web-browser.cjs"),
-  WindowsIcon: require("./windows.cjs"),
-  WorkspaceSolidIcon: require("./workspace-solid.cjs"),
-  WorkspaceIcon: require("./workspace.cjs")
+  WindowsIcon: require("./windows.cjs")
 };
