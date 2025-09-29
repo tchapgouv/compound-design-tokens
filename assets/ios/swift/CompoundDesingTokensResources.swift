@@ -29,17 +29,10 @@ public enum CompoundDesignTokensResources {
         }
     }
     
-    fileprivate static let navigationBarTitleFont = UIFont(name: "Marianne-Medium", size: 16.0)!
-    fileprivate static let navigationBarLargeTitleFont = UIFont(name: "Marianne-Medium", size: 21.0)!
-    
-    public static func setAppearance() {
-        let appearanceAttributes = UINavigationBarAppearance()
-        
-        appearanceAttributes.titleTextAttributes = [.font: navigationBarTitleFont]
-        appearanceAttributes.largeTitleTextAttributes = [.font: navigationBarLargeTitleFont]
-        
-        UINavigationBar.appearance().standardAppearance = appearanceAttributes
-        UINavigationBar.appearance().compactAppearance = appearanceAttributes
-        UINavigationBar.appearance().scrollEdgeAppearance = appearanceAttributes
+    // Set Tchap font globally for UINavigationBar.
+    public static func setNavigationBarAppearance() {
+      UINavigationBar.appearance().standardAppearance = UINavigationBarAppearance().withTchapFonts()
+      UINavigationBar.appearance().compactAppearance = UINavigationBarAppearance().withTchapFonts()
+      UINavigationBar.appearance().scrollEdgeAppearance = UINavigationBarAppearance().withTchapFonts()
     }
 }
