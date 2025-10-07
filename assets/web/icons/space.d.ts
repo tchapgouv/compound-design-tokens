@@ -1,11 +1,11 @@
 import React from "react";
 
 /**
- * workspace.svg
+ * space.svg
  */
-declare const WorkspaceIcon: React.ForwardRefExoticComponent<
+declare const SpaceIcon: React.ForwardRefExoticComponent<
     Omit<React.SVGProps<SVGSVGElement>, "ref" | "children"> &
     React.RefAttributes<SVGSVGElement>
 >;
 
-export default WorkspaceIcon;
+export default SpaceIcon;

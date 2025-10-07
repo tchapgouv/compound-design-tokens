@@ -9,7 +9,7 @@ public class CompoundColorTokens {
     public let bgAccentHovered = CompoundCoreColorTokens.blue1000
     public let bgAccentPressed = CompoundCoreColorTokens.blue1100
     public let bgAccentRest = CompoundCoreColorTokens.blue900
-    public let bgAccentSelected = CompoundCoreColorTokens.alphaGreen300
+    public let bgAccentSelected = CompoundCoreColorTokens.blue300
     public let bgActionPrimaryDisabled = CompoundCoreColorTokens.blue900
     public let bgActionPrimaryHovered = CompoundCoreColorTokens.blue1100
     public let bgActionPrimaryPressed = CompoundCoreColorTokens.blue1000
@@ -38,7 +38,7 @@ public class CompoundColorTokens {
     public let bgSubtleSecondary = CompoundCoreColorTokens.gray300
     public let bgSubtleSecondaryLevel0 = Color("bgSubtleSecondaryLevel0", bundle: Bundle.module)
     public let bgSuccessSubtle = CompoundCoreColorTokens.green200
-    public let borderAccentSubtle = CompoundCoreColorTokens.green700
+    public let borderAccentSubtle = CompoundCoreColorTokens.blue700
     public let borderCriticalHovered = CompoundCoreColorTokens.red1000
     public let borderCriticalPrimary = CompoundCoreColorTokens.red900
     public let borderCriticalSubtle = CompoundCoreColorTokens.red500
@@ -59,12 +59,12 @@ public class CompoundColorTokens {
     public let gradientInfoStop4 = CompoundCoreColorTokens.alphaBlue200
     public let gradientInfoStop5 = CompoundCoreColorTokens.alphaBlue100
     public let gradientInfoStop6 = CompoundCoreColorTokens.transparent
-    public let gradientSubtleStop1 = CompoundCoreColorTokens.alphaGreen500
-    public let gradientSubtleStop2 = CompoundCoreColorTokens.alphaGreen400
-    public let gradientSubtleStop3 = CompoundCoreColorTokens.alphaGreen300
-    public let gradientSubtleStop4 = CompoundCoreColorTokens.alphaGreen200
-    public let gradientSubtleStop5 = CompoundCoreColorTokens.alphaGreen100
-    public let gradientSubtleStop6 = CompoundCoreColorTokens.transparent
+    public let gradientSubtleStop1 = CompoundCoreColorTokens.themeBg
+    public let gradientSubtleStop2 = CompoundCoreColorTokens.themeBg
+    public let gradientSubtleStop3 = CompoundCoreColorTokens.themeBg
+    public let gradientSubtleStop4 = CompoundCoreColorTokens.themeBg
+    public let gradientSubtleStop5 = CompoundCoreColorTokens.themeBg
+    public let gradientSubtleStop6 = CompoundCoreColorTokens.themeBg
     public let iconAccentPrimary = CompoundCoreColorTokens.blue1400
     public let iconAccentTertiary = CompoundCoreColorTokens.blue1200
     public let iconCriticalPrimary = CompoundCoreColorTokens.red900
