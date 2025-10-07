@@ -687,13 +687,14 @@ export const cpdColorIconCriticalPrimary = "#fd3e3c";
 export const cpdColorIconSuccessPrimary = "#a1c4f8";
 export const cpdColorIconInfoPrimary = "#4187eb";
 export const cpdColorIconOnSolidPrimary = "#101317";
-export const cpdColorGradientSubtleStop1 = "#101317";
-export const cpdColorGradientSubtleStop2 = "#101317";
-export const cpdColorGradientSubtleStop3 = "#101317";
-export const cpdColorGradientSubtleStop4 = "#101317";
-export const cpdColorGradientSubtleStop5 = "#101317";
-export const cpdColorGradientSubtleStop6 = "#101317";
-export const cpdColorGradientSubtleLinear = "#101317";
+export const cpdColorGradientSubtleStop1 = "rgba(0,0,0,0)";
+export const cpdColorGradientSubtleStop2 = "rgba(0,0,0,0)";
+export const cpdColorGradientSubtleStop3 = "rgba(0,0,0,0)";
+export const cpdColorGradientSubtleStop4 = "rgba(0,0,0,0)";
+export const cpdColorGradientSubtleStop5 = "rgba(0,0,0,0)";
+export const cpdColorGradientSubtleStop6 = "rgba(0,0,0,0)";
+export const cpdColorGradientSubtleLinear =
+  "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%)";
 export const cpdColorGradientInfoStop1 = "hsla(221, 100%, 37%, 0.63)";
 export const cpdColorGradientInfoStop2 = "hsl(224, 100%, 22%, 1)";
 export const cpdColorGradientInfoStop3 = "hsl(229, 100%, 20%, 1)";
@@ -702,8 +703,9 @@ export const cpdColorGradientInfoStop5 = "hsl(237, 100%, 18%, 1)";
 export const cpdColorGradientInfoStop6 = "rgba(0,0,0,0)";
 export const cpdColorGradientInfoLinear =
   "linear-gradient(180deg, hsla(221, 100%, 37%, 0.63) 0%, hsl(224, 100%, 22%, 1) 20%, hsl(229, 100%, 20%, 1) 40%, hsl(234, 100%, 18%, 1) 60%, hsl(237, 100%, 18%, 1) 80%, rgba(0,0,0,0) 100%)";
-export const cpdColorGradientActionStop1 = "#1fc090";
-export const cpdColorGradientActionStop2 = "#129a78";
-export const cpdColorGradientActionStop3 = "#005a43";
-export const cpdColorGradientActionStop4 = "#003d29";
-export const cpdColorGradientActionLinear = "#a1c4f8";
+export const cpdColorGradientActionStop1 = "#a1c4f8";
+export const cpdColorGradientActionStop2 = "#a1c4f8";
+export const cpdColorGradientActionStop3 = "#a1c4f8";
+export const cpdColorGradientActionStop4 = "#a1c4f8";
+export const cpdColorGradientActionLinear =
+  "linear-gradient(180deg, #a1c4f8 0%, #a1c4f8 33%, #a1c4f8 66%, #a1c4f8 100%)";
