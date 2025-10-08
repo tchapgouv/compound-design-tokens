@@ -34,22 +34,22 @@
     "gradient": {
       "action": {
         "stop1": {
-          "value": "{color.blue.1200}",
+          "value": "{color.blue.900}",
           "type": "color",
           "description": "Background gradient stop for super and send buttons"
         },
         "stop2": {
-          "value": "{color.blue.1200}",
+          "value": "{color.blue.900}",
           "type": "color",
           "description": "Background gradient stop for super and send buttons"
         },
         "stop3": {
-          "value": "{color.blue.1200}",
+          "value": "{color.blue.900}",
           "type": "color",
           "description": "Background gradient stop for super and send buttons"
         },
         "stop4": {
-          "value": "{color.blue.1200}",
+          "value": "{color.blue.900}",
           "type": "color",
           "description": "Background gradient stop for super and send buttons"
         },

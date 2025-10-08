@@ -23,14 +23,14 @@
           "description": "Default text colour for plain actions."
         },
         "accent": {
-          "value": "{color.blue.1200}",
+          "value": "{color.blue.900}",
           "type": "color",
           "description": "Accent text colour for plain actions."
         }
       },
       "link": {
         "external": {
-          "value": "{color.blue.1100}",
+          "value": "{color.blue.1000}",
           "type": "color",
           "description": "Text colour for external links."
         }
@@ -134,22 +134,22 @@
       "action": {
         "primary": {
           "rest": {
-            "value": "{color.blue.1200}",
+            "value": "{color.blue.900}",
             "type": "color",
             "description": "Background colour for primary actions. State: Rest."
           },
           "hovered": {
-            "value": "{color.blue.1100}",
+            "value": "{color.blue.800}",
             "type": "color",
             "description": "Background colour for primary actions. State: Hover."
           },
           "pressed": {
-            "value": "{color.blue.1000}",
+            "value": "{color.blue.700}",
             "type": "color",
             "description": "Background colour for primary actions. State: Pressed."
           },
           "disabled": {
-            "value": "{color.blue.900}",
+            "value": "{color.blue.700}",
             "type": "color",
             "description": "Background colour for primary actions. State: Disabled."
           }
@@ -184,7 +184,7 @@
           "description": "High-contrast background color for critical state. State: Hover."
         },
         "subtle": {
-          "value": "{color.red.200}",
+          "value": "{color.red.500}",
           "type": "color",
           "description": "Default subtle critical surfaces. State: Rest."
         },
@@ -270,7 +270,7 @@
         "description": "Used for borders of disabled elements. There's no minimum contrast requirement."
       },
       "focused": {
-        "value": "{color.blue.900}",
+        "value": "{color.blue.500}",
         "type": "color",
         "description": "Used for the focus state outline."
       },
@@ -378,7 +378,7 @@
       },
       "accent": {
         "tertiary": {
-          "value": "{color.blue.1200}",
+          "value": "{color.blue.900}",
           "type": "color",
           "description": "Lowest contrast accessible accent icons."
         },
