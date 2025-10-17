@@ -41,10 +41,10 @@
       "color": {
         "color-space": "srgb",
         "components": {
-          "alpha": "1.0000",
-          "red": "0.9961",
-          "green": "0.5255",
-          "blue": "0.6431"
+          "alpha": "0.1300",
+          "red": "1.0000",
+          "green": "0.0000",
+          "blue": "0.2157"
         }
       }
     },

@@ -27,7 +27,7 @@ public class CompoundColorTokens {
     public let bgCriticalPrimary = CompoundCoreColorTokens.red900
     public let bgCriticalSubtle = CompoundCoreColorTokens.red500
     public let bgCriticalSubtleHovered = CompoundCoreColorTokens.red300
-    public let bgDecorative1 = CompoundCoreColorTokens.lime300
+    public let bgDecorative1 = CompoundCoreColorTokens.green300
     public let bgDecorative2 = CompoundCoreColorTokens.cyan300
     public let bgDecorative3 = CompoundCoreColorTokens.fuchsia300
     public let bgDecorative4 = CompoundCoreColorTokens.purple300
@@ -37,7 +37,7 @@ public class CompoundColorTokens {
     public let bgSubtlePrimary = CompoundCoreColorTokens.blue400
     public let bgSubtleSecondary = CompoundCoreColorTokens.gray300
     public let bgSubtleSecondaryLevel0 = Color("bgSubtleSecondaryLevel0", bundle: Bundle.module)
-    public let bgSuccessSubtle = CompoundCoreColorTokens.green200
+    public let bgSuccessSubtle = CompoundCoreColorTokens.green400
     public let borderAccentSubtle = CompoundCoreColorTokens.blue700
     public let borderCriticalHovered = CompoundCoreColorTokens.red1000
     public let borderCriticalPrimary = CompoundCoreColorTokens.red900
@@ -85,18 +85,18 @@ public class CompoundColorTokens {
     public let textBadgeAccent = CompoundCoreColorTokens.green1100
     public let textBadgeInfo = CompoundCoreColorTokens.blue1100
     public let textCriticalPrimary = CompoundCoreColorTokens.red900
-    public let textDecorative1 = CompoundCoreColorTokens.lime1100
-    public let textDecorative2 = CompoundCoreColorTokens.cyan1100
-    public let textDecorative3 = CompoundCoreColorTokens.fuchsia1100
-    public let textDecorative4 = CompoundCoreColorTokens.purple1100
-    public let textDecorative5 = CompoundCoreColorTokens.pink1100
-    public let textDecorative6 = CompoundCoreColorTokens.orange1100
+    public let textDecorative1 = CompoundCoreColorTokens.green1000
+    public let textDecorative2 = CompoundCoreColorTokens.cyan1000
+    public let textDecorative3 = CompoundCoreColorTokens.fuchsia1000
+    public let textDecorative4 = CompoundCoreColorTokens.purple1000
+    public let textDecorative5 = CompoundCoreColorTokens.pink1000
+    public let textDecorative6 = CompoundCoreColorTokens.orange1000
     public let textDisabled = CompoundCoreColorTokens.gray800
     public let textInfoPrimary = CompoundCoreColorTokens.blue1100
     public let textLinkExternal = CompoundCoreColorTokens.blue1000
     public let textOnSolidPrimary = CompoundCoreColorTokens.themeBg
     public let textPrimary = CompoundCoreColorTokens.gray1400
     public let textSecondary = CompoundCoreColorTokens.gray900
-    public let textSuccessPrimary = CompoundCoreColorTokens.green900
+    public let textSuccessPrimary = CompoundCoreColorTokens.green1000
     public init() { }
 }
