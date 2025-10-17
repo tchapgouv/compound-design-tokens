@@ -44,7 +44,7 @@
       },
       "success": {
         "primary": {
-          "value": "{color.green.900}",
+          "value": "{color.green.1000}",
           "type": "color",
           "description": "Accent text colour for success state elements."
         }
@@ -65,32 +65,32 @@
       },
       "decorative": {
         "1": {
-          "value": "{color.lime.1100}",
+          "value": "{color.green.1000}",
           "type": "color",
           "description": "Decorative text colour (1, Lime) for avatars and usernames."
         },
         "2": {
-          "value": "{color.cyan.1100}",
+          "value": "{color.cyan.1000}",
           "type": "color",
           "description": "Decorative text colour (2, Cyan) for avatars and usernames."
         },
         "3": {
-          "value": "{color.fuchsia.1100}",
+          "value": "{color.fuchsia.1000}",
           "type": "color",
           "description": "Decorative text colour (3, Fuchsia) for avatars and usernames."
         },
         "4": {
-          "value": "{color.purple.1100}",
+          "value": "{color.purple.1000}",
           "type": "color",
           "description": "Decorative text colour (4, Purple) for avatars and usernames."
         },
         "5": {
-          "value": "{color.pink.1100}",
+          "value": "{color.pink.1000}",
           "type": "color",
           "description": "Decorative text colour (5, Pink) for avatars and usernames."
         },
         "6": {
-          "value": "{color.orange.1100}",
+          "value": "{color.orange.1000}",
           "type": "color",
           "description": "Decorative text colour (6, Orange) for avatars and usernames."
         }
@@ -196,7 +196,7 @@
       },
       "success": {
         "subtle": {
-          "value": "{color.green.200}",
+          "value": "{color.green.400}",
           "type": "color",
           "description": "Subtle background colour for success state elements. State: Rest."
         }
@@ -210,7 +210,7 @@
       },
       "decorative": {
         "1": {
-          "value": "{color.lime.300}",
+          "value": "{color.green.300}",
           "type": "color",
           "description": "Decorative background (1, Lime) for avatars and usernames."
         },
