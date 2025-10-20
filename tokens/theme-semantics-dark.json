@@ -105,7 +105,7 @@
           "description": "Default text colour for plain actions."
         },
         "accent": {
-          "value": "{color.blue.900}",
+          "value": "{color.blue.600}",
           "type": "color",
           "description": "Accent text colour for plain actions."
         }
@@ -140,7 +140,7 @@
       },
       "on-solid": {
         "primary": {
-          "value": "{color.alpha.gray.100}",
+          "value": "{color.gray.1400}",
           "type": "color",
           "description": "For use as text color on top of high-contrast solid backgrounds like primary, accent, or destructive actions."
         }
