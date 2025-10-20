@@ -316,7 +316,7 @@ object DarkColorTokens {
     val colorRed700 = Color(0xfff6494c)
     val colorRed800 = Color(0xfff79089)
     val colorRed900 = Color(0xffffafa9)
-    val colorThemeBg = Color(0xffffffff)
+    val colorThemeBg = Color(0xff101317)
     val colorTransparent = Color(0x00000000)
     val colorYellow100 = Color(0xff241c14)
     val colorYellow1000 = Color(0xfff2d05f)
