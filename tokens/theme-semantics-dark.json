@@ -80,6 +80,28 @@
           "type": "color",
           "description": "Badge default background colour"
         }
+      },
+      "accent": {
+        "rest": {
+          "value": "{color.blue.600}",
+          "type": "color",
+          "description": "Background colour for accent or brand actions. State: Rest."
+        },
+        "hovered": {
+          "value": "{color.blue.700}",
+          "type": "color",
+          "description": "Background colour for accent or brand actions. State: Hover"
+        },
+        "pressed": {
+          "value": "{color.blue.800}",
+          "type": "color",
+          "description": "Background colour for accent or brand actions. State: Pressed"
+        },
+        "selected": {
+          "value": "{color.blue.800}",
+          "type": "color",
+          "description": "Background colour for accent or brand actions. State: Selected"
+        }
       }
     },
     "text": {
@@ -105,7 +127,7 @@
           "description": "Default text colour for plain actions."
         },
         "accent": {
-          "value": "{color.blue.600}",
+          "value": "{color.blue.1000}",
           "type": "color",
           "description": "Accent text colour for plain actions."
         }
