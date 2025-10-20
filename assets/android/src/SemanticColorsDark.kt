@@ -25,10 +25,10 @@ import io.element.android.compound.tokens.generated.internal.DarkColorTokens
  */
 @OptIn(CoreColorToken::class)
 val compoundColorsDark = SemanticColors(
-    bgAccentHovered = DarkColorTokens.colorBlue1000,
-    bgAccentPressed = DarkColorTokens.colorBlue1100,
-    bgAccentRest = DarkColorTokens.colorBlue900,
-    bgAccentSelected = DarkColorTokens.colorBlue300,
+    bgAccentHovered = DarkColorTokens.colorBlue700,
+    bgAccentPressed = DarkColorTokens.colorBlue800,
+    bgAccentRest = DarkColorTokens.colorBlue600,
+    bgAccentSelected = DarkColorTokens.colorBlue800,
     bgActionPrimaryDisabled = DarkColorTokens.colorBlue900,
     bgActionPrimaryHovered = DarkColorTokens.colorBlue700,
     bgActionPrimaryPressed = DarkColorTokens.colorBlue800,
@@ -99,7 +99,7 @@ val compoundColorsDark = SemanticColors(
     iconSuccessPrimary = DarkColorTokens.colorBlue1200,
     iconTertiary = DarkColorTokens.colorGray800,
     iconTertiaryAlpha = DarkColorTokens.colorAlphaGray800,
-    textActionAccent = DarkColorTokens.colorBlue900,
+    textActionAccent = DarkColorTokens.colorBlue1000,
     textActionPrimary = DarkColorTokens.colorGray1400,
     textBadgeAccent = DarkColorTokens.colorGreen1100,
     textBadgeInfo = DarkColorTokens.colorBlue1100,
@@ -113,7 +113,7 @@ val compoundColorsDark = SemanticColors(
     textDisabled = DarkColorTokens.colorGray800,
     textInfoPrimary = DarkColorTokens.colorBlue1100,
     textLinkExternal = DarkColorTokens.colorBlue1000,
-    textOnSolidPrimary = DarkColorTokens.colorAlphaGray100,
+    textOnSolidPrimary = DarkColorTokens.colorGray1400,
     textPrimary = DarkColorTokens.colorGray1400,
     textSecondary = DarkColorTokens.colorGray900,
     textSuccessPrimary = DarkColorTokens.colorGreen1000,
