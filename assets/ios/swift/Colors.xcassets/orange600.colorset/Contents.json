@@ -6,9 +6,9 @@
         "color-space": "srgb",
         "components": {
           "alpha": "1.0000",
-          "red": "0.9922",
-          "green": "0.7020",
-          "blue": "0.4863"
+          "red": "0.9843",
+          "green": "0.7059",
+          "blue": "0.4627"
         }
       }
     },
@@ -42,9 +42,9 @@
         "color-space": "srgb",
         "components": {
           "alpha": "1.0000",
-          "red": "0.5137",
-          "green": "0.0196",
-          "blue": "0.0000"
+          "red": "0.6549",
+          "green": "0.3412",
+          "blue": "0.0157"
         }
       }
     },
