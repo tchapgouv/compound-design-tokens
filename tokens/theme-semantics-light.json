@@ -6,12 +6,12 @@
         "type": "color",
         "description": "Lower contrast surfaces.\nElevation: Level 0."
       },
-      "subtle-primary-copy": {
+      "subtle-primary": {
         "value": "{color.blue.400}",
         "type": "color",
         "description": "Medium contrast surfaces.\nElevation: Default (Level 2)."
       },
-      "subtle-secondary-copy": {
+      "subtle-secondary": {
         "value": "{color.gray.300}",
         "type": "color",
         "description": "Low contrast surfaces.\nElevation: Default (Level 1)."
