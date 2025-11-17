@@ -301,7 +301,7 @@
       },
       "critical": {
         "primary": {
-          "value": "{color.red.900}",
+          "value": "{color.red.600}",
           "type": "color",
           "description": "High-contrast icon for critical state. State: Rest."
         }

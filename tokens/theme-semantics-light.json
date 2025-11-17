@@ -16,6 +16,30 @@
         "type": "color",
         "description": "Low contrast surfaces.\nElevation: Default (Level 1)."
       },
+      "canvas": {
+        "default-level-1": {
+          "value": "{color.theme.bg}",
+          "type": "color",
+          "description": "Default global background for the user interface.\nElevation: Level 1."
+        }
+      },
+      "badge": {
+        "accent": {
+          "value": "{color.alpha.green.400}",
+          "type": "color",
+          "description": "Badge accent background colour"
+        },
+        "info": {
+          "value": "{color.alpha.blue.400}",
+          "type": "color",
+          "description": "Badge info background colour"
+        },
+        "default": {
+          "value": "{color.alpha.gray.400}",
+          "type": "color",
+          "description": "Badge default background colour"
+        }
+      },
       "action": {
         "primary": {
           "rest": {
@@ -57,23 +81,6 @@
           }
         }
       },
-      "badge": {
-        "accent": {
-          "value": "{color.alpha.green.400}",
-          "type": "color",
-          "description": "Badge accent background colour"
-        },
-        "info": {
-          "value": "{color.alpha.blue.400}",
-          "type": "color",
-          "description": "Badge info background colour"
-        },
-        "default": {
-          "value": "{color.alpha.gray.400}",
-          "type": "color",
-          "description": "Badge default background colour"
-        }
-      },
       "accent": {
         "rest": {
           "value": "{color.blue.900}",
@@ -94,13 +101,6 @@
           "value": "{color.blue.700}",
           "type": "color",
           "description": "Background colour for accent or brand actions. State: Selected"
-        }
-      },
-      "canvas": {
-        "default-level-1": {
-          "value": "{color.theme.bg}",
-          "type": "color",
-          "description": "Default global background for the user interface.\nElevation: Level 1."
         }
       }
     },
