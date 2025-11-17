@@ -642,6 +642,8 @@ export const cpdColorBgAccentHovered: string;
 export const cpdColorBgAccentPressed: string;
 export const cpdColorBgAccentSelected: string;
 export const cpdColorBgSubtleSecondaryLevel0: string;
+export const cpdColorBgSubtlePrimaryCopy: string;
+export const cpdColorBgSubtleSecondaryCopy: string;
 export const cpdColorBgBadgeAccent: string;
 export const cpdColorBgBadgeInfo: string;
 export const cpdColorBgBadgeDefault: string;
