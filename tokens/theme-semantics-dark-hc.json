@@ -24,17 +24,17 @@
             "description": "Background colour for primary actions. State: Rest."
           },
           "hovered": {
-            "value": "{color.blue.700}",
+            "value": "{color.blue.500}",
             "type": "color",
             "description": "Background colour for primary actions. State: Hover."
           },
           "pressed": {
-            "value": "{color.blue.800}",
+            "value": "{color.alpha.blue.500}",
             "type": "color",
             "description": "Background colour for primary actions. State: Pressed."
           },
           "disabled": {
-            "value": "{color.blue.900}",
+            "value": "{color.alpha.blue.500}",
             "type": "color",
             "description": "Background colour for primary actions. State: Disabled."
           }
@@ -81,17 +81,17 @@
           "description": "Background colour for accent or brand actions. State: Rest."
         },
         "hovered": {
-          "value": "{color.blue.700}",
+          "value": "{color.blue.500}",
           "type": "color",
           "description": "Background colour for accent or brand actions. State: Hover"
         },
         "pressed": {
-          "value": "{color.blue.800}",
+          "value": "{color.alpha.blue.500}",
           "type": "color",
           "description": "Background colour for accent or brand actions. State: Pressed"
         },
         "selected": {
-          "value": "{color.blue.800}",
+          "value": "{color.alpha.blue.500}",
           "type": "color",
           "description": "Background colour for accent or brand actions. State: Selected"
         }
