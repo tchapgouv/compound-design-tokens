@@ -102,6 +102,28 @@
           "type": "color",
           "description": "Default global background for the user interface.\nElevation: Level 1."
         }
+      },
+      "critical": {
+        "primary": {
+          "value": "{color.red.600}",
+          "type": "color",
+          "description": "High-contrast background color for critical state. State: Rest."
+        },
+        "hovered": {
+          "value": "{color.red.500}",
+          "type": "color",
+          "description": "High-contrast background color for critical state. State: Hover."
+        },
+        "subtle": {
+          "value": "{color.red.800}",
+          "type": "color",
+          "description": "Default subtle critical surfaces. State: Rest."
+        },
+        "subtle-hovered": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "description": "Default subtle critical surfaces. State: Hover."
+        }
       }
     },
     "text": {
@@ -141,7 +163,7 @@
       },
       "critical": {
         "primary": {
-          "value": "{color.red.900}",
+          "value": "{color.red.800}",
           "type": "color",
           "description": "Text colour for destructive plain actions."
         }
@@ -289,7 +311,7 @@
       },
       "accent": {
         "tertiary": {
-          "value": "{color.blue.1000}",
+          "value": "{color.blue.600}",
           "type": "color",
           "description": "Lowest contrast accessible accent icons."
         },
@@ -301,7 +323,7 @@
       },
       "critical": {
         "primary": {
-          "value": "{color.red.600}",
+          "value": "{color.red.800}",
           "type": "color",
           "description": "High-contrast icon for critical state. State: Rest."
         }

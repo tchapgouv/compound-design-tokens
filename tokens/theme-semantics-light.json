@@ -102,6 +102,28 @@
           "type": "color",
           "description": "Background colour for accent or brand actions. State: Selected"
         }
+      },
+      "critical": {
+        "primary": {
+          "value": "{color.red.900}",
+          "type": "color",
+          "description": "High-contrast background color for critical state. State: Rest."
+        },
+        "hovered": {
+          "value": "{color.red.1000}",
+          "type": "color",
+          "description": "High-contrast background color for critical state. State: Hover."
+        },
+        "subtle": {
+          "value": "{color.red.500}",
+          "type": "color",
+          "description": "Default subtle critical surfaces. State: Rest."
+        },
+        "subtle-hovered": {
+          "value": "{color.red.300}",
+          "type": "color",
+          "description": "Default subtle critical surfaces. State: Hover."
+        }
       }
     },
     "text": {
