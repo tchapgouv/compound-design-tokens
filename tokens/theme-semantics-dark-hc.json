@@ -115,7 +115,7 @@
           "description": "High-contrast background color for critical state. State: Hover."
         },
         "subtle": {
-          "value": "{color.red.800}",
+          "value": "{color.red.500}",
           "type": "color",
           "description": "Default subtle critical surfaces. State: Rest."
         },
