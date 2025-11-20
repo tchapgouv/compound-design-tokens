@@ -29,7 +29,7 @@
   --cpd-color-bg-action-secondary-pressed: var(--cpd-color-alpha-gray-300);
   --cpd-color-bg-critical-primary: var(--cpd-color-red-600);
   --cpd-color-bg-critical-hovered: var(--cpd-color-red-500);
-  --cpd-color-bg-critical-subtle: var(--cpd-color-red-800);
+  --cpd-color-bg-critical-subtle: var(--cpd-color-red-500);
   --cpd-color-bg-critical-subtle-hovered: var(--cpd-color-red-700);
   --cpd-color-bg-accent-rest: var(--cpd-color-blue-600);
   --cpd-color-bg-accent-hovered: var(--cpd-color-blue-500);
