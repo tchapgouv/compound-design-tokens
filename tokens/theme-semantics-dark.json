@@ -59,17 +59,22 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.alpha.green.400}",
+          "value": "{color.green.400}",
           "type": "color",
           "description": "Badge accent background colour"
         },
         "info": {
-          "value": "{color.alpha.blue.400}",
+          "value": "{color.blue.400}",
           "type": "color",
           "description": "Badge info background colour"
         },
         "default": {
-          "value": "{color.alpha.gray.400}",
+          "value": "{color.gray.400}",
+          "type": "color",
+          "description": "Badge default background colour"
+        },
+        "external": {
+          "value": "{color.orange.400}",
           "type": "color",
           "description": "Badge default background colour"
         }
@@ -223,12 +228,22 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.1100}",
+          "value": "{color.green.1200}",
           "type": "color",
           "description": "Badge accent text colour"
         },
         "info": {
-          "value": "{color.blue.1100}",
+          "value": "{color.blue.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "default": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "external": {
+          "value": "{color.orange.1200}",
           "type": "color",
           "description": "Badge info text colour"
         }
