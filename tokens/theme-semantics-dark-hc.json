@@ -344,7 +344,7 @@
       },
       "on-solid": {
         "primary": {
-          "value": "{color.gray.1400}",
+          "value": "{color.theme.bg}",
           "type": "color",
           "description": "Highest contrast icon color on top of high-contrast solid backgrounds like primary, accent, or destructive actions."
         }
