@@ -17,6 +17,9 @@ public class CompoundUIColorTokens {
     public let bgActionSecondaryHovered = UIColor(named: "bgActionSecondaryHovered", in: Bundle.module, compatibleWith: nil)!
     public let bgActionSecondaryPressed = UIColor(named: "bgActionSecondaryPressed", in: Bundle.module, compatibleWith: nil)!
     public let bgActionSecondaryRest = UIColor(named: "bgActionSecondaryRest", in: Bundle.module, compatibleWith: nil)!
+    public let bgActionTertiaryHovered = CompoundCoreUIColorTokens.gray300
+    public let bgActionTertiaryRest = CompoundCoreUIColorTokens.themeBg
+    public let bgActionTertiarySelected = CompoundCoreUIColorTokens.gray400
     public let bgBadgeAccent = UIColor(named: "bgBadgeAccent", in: Bundle.module, compatibleWith: nil)!
     public let bgBadgeDefault = UIColor(named: "bgBadgeDefault", in: Bundle.module, compatibleWith: nil)!
     public let bgBadgeInfo = UIColor(named: "bgBadgeInfo", in: Bundle.module, compatibleWith: nil)!

@@ -1,6 +1,9 @@
 :root, [class*="cpd-theme-"] {
   --cpd-color-bg-canvas-default: var(--cpd-color-theme-bg);
   --cpd-color-bg-canvas-disabled: var(--cpd-color-gray-200);
+  --cpd-color-bg-action-tertiary-rest: var(--cpd-color-theme-bg);
+  --cpd-color-bg-action-tertiary-hovered: var(--cpd-color-gray-300);
+  --cpd-color-bg-action-tertiary-selected: var(--cpd-color-gray-400);
   --cpd-color-bg-success-subtle: var(--cpd-color-green-400);
   --cpd-color-bg-info-subtle: var(--cpd-color-blue-200);
   --cpd-color-bg-decorative-1: var(--cpd-color-green-300);
