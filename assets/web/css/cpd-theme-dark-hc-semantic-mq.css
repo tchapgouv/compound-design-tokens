@@ -53,7 +53,7 @@
   --cpd-color-icon-critical-primary: var(--cpd-color-red-800);
   --cpd-color-icon-success-primary: var(--cpd-color-blue-1200);
   --cpd-color-icon-info-primary: var(--cpd-color-blue-900);
-  --cpd-color-icon-on-solid-primary: var(--cpd-color-gray-1400);
+  --cpd-color-icon-on-solid-primary: var(--cpd-color-theme-bg);
   --cpd-color-gradient-action-stop1: var(--cpd-color-blue-1200);
   --cpd-color-gradient-action-stop2: var(--cpd-color-blue-1200);
   --cpd-color-gradient-action-stop3: var(--cpd-color-blue-1200);

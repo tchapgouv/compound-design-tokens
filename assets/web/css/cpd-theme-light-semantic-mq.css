@@ -15,8 +15,10 @@
   --cpd-color-text-decorative-4: var(--cpd-color-purple-1000);
   --cpd-color-text-decorative-5: var(--cpd-color-pink-1000);
   --cpd-color-text-decorative-6: var(--cpd-color-orange-1000);
-  --cpd-color-text-badge-accent: var(--cpd-color-green-1100);
-  --cpd-color-text-badge-info: var(--cpd-color-blue-1100);
+  --cpd-color-text-badge-accent: var(--cpd-color-green-1200);
+  --cpd-color-text-badge-info: var(--cpd-color-blue-1200);
+  --cpd-color-text-badge-default: var(--cpd-color-gray-1200);
+  --cpd-color-text-badge-external: var(--cpd-color-orange-1200);
   --cpd-color-bg-subtle-primary: var(--cpd-color-blue-400);
   --cpd-color-bg-subtle-secondary: var(--cpd-color-gray-300);
   --cpd-color-bg-canvas-default-level-1: var(--cpd-color-theme-bg);
@@ -36,9 +38,10 @@
   --cpd-color-bg-accent-pressed: var(--cpd-color-blue-1100);
   --cpd-color-bg-accent-selected: var(--cpd-color-blue-700);
   --cpd-color-bg-subtle-secondary-level-0: var(--cpd-color-gray-300);
-  --cpd-color-bg-badge-accent: var(--cpd-color-alpha-green-400);
-  --cpd-color-bg-badge-info: var(--cpd-color-alpha-blue-400);
-  --cpd-color-bg-badge-default: var(--cpd-color-alpha-gray-400);
+  --cpd-color-bg-badge-accent: var(--cpd-color-green-400);
+  --cpd-color-bg-badge-info: var(--cpd-color-blue-400);
+  --cpd-color-bg-badge-default: var(--cpd-color-gray-400);
+  --cpd-color-bg-badge-external: var(--cpd-color-orange-400);
   --cpd-color-icon-primary: var(--cpd-color-gray-1400);
   --cpd-color-icon-secondary: var(--cpd-color-gray-900);
   --cpd-color-icon-tertiary: var(--cpd-color-gray-800);
