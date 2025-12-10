@@ -1,8 +1,8 @@
-<p align="center"><img src="https://element.io/images/logo-ele-secondary.svg" width="300" /></p>
+<p align="center"><img src="https://compound.element.io/logo-readme.png" width="300" alt="" /></p>
 
 # Compound design tokens
 
-[![](https://img.shields.io/github/license/vector-im/compound)](https://github.com/vector-im/compound/blob/main/LICENSE)
+[![](https://img.shields.io/github/license/element-hq/compound)](https://github.com/element-hq/compound/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/@vector-im/compound-design-tokens)](https://www.npmjs.com/package/@vector-im/compound-design-tokens)
 
 Home to the design tokens.
@@ -24,14 +24,16 @@ Tokens are exported to three platforms
 
 - [Development](./docs/development.md)
 - [Icons](./docs/icons.md)
+- [Colors](./docs/colors.md)
 - [Release](./docs/release.md)
 - [Synchronise with Figma](https://compound.element.io/?path=/docs/design-get-started--docs)
 
 ## Copyright and License
 
-Copyright (c) 2023 - 2025 New Vector Ltd
+Copyright (c) 2025 Element Creations Ltd.
+Copyright (c) 2023 - 2025 New Vector Ltd.
 
-This software is dual licensed by New Vector Ltd (Element). It can be used either:
+This software is dual licensed by Element Creations Ltd. (Element). It can be used either:
 
 (1) for free under the terms of the GNU Affero General Public License (as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version); OR
 

@@ -1,11 +1,13 @@
 /*
- * Copyright 2024 New Vector Ltd.
+ * Copyright (c) 2025 Element Creations Ltd.
+ * Copyright 2024-2025 New Vector Ltd.
  * Copyright 2024 Josh Cusick
  *
- * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+ * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial.
  * Please see LICENSE files in the repository root for full details.
  */
 
+import { execSync } from "node:child_process";
 import { mkdir, rm, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { cwd, env, exit } from "node:process";
@@ -135,11 +137,13 @@ const iconMetadata = z
       }))
       // As we don't currently perform optical scaling, we only want the 24px
       // icons or those which are explicitly indicated in their name to be
-      // designed for a smaller size. We also don't want placeholders.
+      // designed for a smaller size. We also don't want placeholders or icons
+      // with a baked-in unread messages dot.
       .filter(
-        ({ name, properties: { Size: size } }) =>
+        ({ name, properties: { Size: size, Unread: unread } }) =>
           (size === "24" || name.includes(`${size}x${size}`)) &&
-          name !== "Icon Placeholder",
+          name !== "Icon Placeholder" &&
+          unread !== "True",
       );
     for (const { componentSetId, name } of components) {
       if (!name) {
@@ -241,3 +245,7 @@ writeFile(
 );
 
 console.log("All icons saved");
+
+console.log("Converting SVG files to Android XML vector drawables...");
+
+execSync("svg2xml icons assets/android/res/drawable ic_compound");

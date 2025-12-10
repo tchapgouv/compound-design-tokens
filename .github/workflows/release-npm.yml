@@ -12,18 +12,21 @@ on:
           - minor
           - major
 concurrency: release
+permissions:
+  id-token: write # Allow npm to authenticate as a trusted publisher
+  contents: write # Allow creating a release
 jobs:
   release:
     name: "Release & Publish"
     runs-on: ubuntu-latest
     steps:
       - name: 🧮 Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
         with:
           token: ${{ secrets.ELEMENT_BOT_TOKEN }}
 
       - name: 🔧 Set up node environment
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6
         with:
           node-version: "lts/*"
           cache: "yarn"
@@ -39,20 +42,20 @@ jobs:
           git config --global user.email 'releases@riot.im'
           git commit -am "${{ github.event.inputs.version-bump }} version bump"
           git push
+
       - name: 🚀 Publish to npm
-        id: npm-publish
-        uses: JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c # v3
-        with:
-          token: ${{ secrets.ELEMENT_NPM_TOKEN }}
-          access: public
+        # We use npm since Yarn Classic doesn't support trusted publishing
+        run: |
+          npm publish --provenance --ignore-scripts
+          echo "VERSION=$(jq '.version' --raw-output package.json)" >> "$GITHUB_ENV"
 
       - name: 🧬 Create release
         uses: actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e # v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ steps.npm-publish.outputs.version }}
-          release_name: Release ${{ steps.npm-publish.outputs.version }}
-          body: ${{ steps.npm-publish.outputs.version }} Release
+          tag_name: v${{ env.VERSION }}
+          release_name: Release ${{ env.VERSION }}
+          body: ${{ env.VERSION }} Release
           draft: false
           prerelease: false

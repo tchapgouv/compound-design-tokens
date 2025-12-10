@@ -9,6 +9,8 @@ let package = Package(
         .library(name: "CompoundDesignTokens", targets: ["CompoundDesignTokens"])
     ],
     targets: [
-        .target(name: "CompoundDesignTokens", path: "assets/ios/swift", resources: [.copy("fonts")])
+        .target(name: "CompoundDesignTokens",
+                path: "assets/ios/swift",
+                resources: [.copy("Resources/theme.iife.js")])
     ]
 )
