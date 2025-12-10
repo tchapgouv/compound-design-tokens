@@ -21,7 +21,7 @@
   --cpd-color-text-badge-external: var(--cpd-color-orange-1200);
   --cpd-color-bg-subtle-primary: var(--cpd-color-blue-300);
   --cpd-color-bg-subtle-secondary: var(--cpd-color-gray-300);
-  --cpd-color-bg-canvas-default-level-1: var(--cpd-color-gray-300);
+  --cpd-color-bg-canvas-default-level-1: var(--cpd-color-gray-200);
   --cpd-color-bg-action-primary-rest: var(--cpd-color-blue-600);
   --cpd-color-bg-action-primary-hovered: var(--cpd-color-blue-500);
   --cpd-color-bg-action-primary-pressed: var(--cpd-color-alpha-gray-700);
