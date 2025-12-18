@@ -38,6 +38,11 @@
           "value": "{color.alpha.gray.400}",
           "type": "color",
           "description": "Badge default background colour"
+        },
+        "external": {
+          "value": "{color.orange.400}",
+          "type": "color",
+          "description": "Badge default background colour"
         }
       },
       "action": {
@@ -229,6 +234,16 @@
         },
         "info": {
           "value": "{color.blue.1100}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "default": {
+          "value": "{color.gray.1100}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "external": {
+          "value": "{color.orange.1100}",
           "type": "color",
           "description": "Badge info text colour"
         }
