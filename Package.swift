@@ -11,6 +11,8 @@ let package = Package(
     targets: [
         .target(name: "CompoundDesignTokens",
                 path: "assets/ios/swift",
-                resources: [.copy("Resources/theme.iife.js")])
+                resources: [.copy("Resources/theme.iife.js"),
+                            .copy("fonts") // Tchap: embed Marianne font,
+                            ])
     ]
 )
