@@ -324,6 +324,28 @@
         "type": "color",
         "description": "Translucent version of quaternary icon. Refer to it for intended use."
       },
+      "badge": {
+        "accent": {
+          "value": "{color.green.1200}",
+          "type": "color",
+          "description": "Badge accent text colour"
+        },
+        "info": {
+          "value": "{color.blue.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "default": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "external": {
+          "value": "{color.orange.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        }
+      },
       "accent": {
         "tertiary": {
           "value": "{color.blue.900}",

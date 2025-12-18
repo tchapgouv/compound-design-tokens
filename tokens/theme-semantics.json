@@ -442,6 +442,28 @@
           "type": "color",
           "description": "Highest contrast icon color on top of high-contrast solid backgrounds like primary, accent, or destructive actions."
         }
+      },
+      "badge": {
+        "accent": {
+          "value": "{color.green.1200}",
+          "type": "color",
+          "description": "Badge accent text colour"
+        },
+        "info": {
+          "value": "{color.blue.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "default": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "external": {
+          "value": "{color.orange.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        }
       }
     },
     "gradient": {
