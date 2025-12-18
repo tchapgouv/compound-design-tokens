@@ -105,6 +105,16 @@
           "value": "{color.blue.1100}",
           "type": "color",
           "description": "Badge info text colour"
+        },
+        "default": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
+        },
+        "external": {
+          "value": "{color.orange.1200}",
+          "type": "color",
+          "description": "Badge info text colour"
         }
       }
     },
