@@ -22,6 +22,7 @@ public class CompoundUIColorTokens {
     public let bgActionTertiarySelected = CompoundCoreUIColorTokens.gray400
     public let bgBadgeAccent = UIColor(named: "bgBadgeAccent", in: Bundle.module, compatibleWith: nil)!
     public let bgBadgeDefault = UIColor(named: "bgBadgeDefault", in: Bundle.module, compatibleWith: nil)!
+    public let bgBadgeExternal = UIColor(named: "bgBadgeExternal", in: Bundle.module, compatibleWith: nil)!
     public let bgBadgeInfo = UIColor(named: "bgBadgeInfo", in: Bundle.module, compatibleWith: nil)!
     public let bgCanvasDefault = CompoundCoreUIColorTokens.themeBg
     public let bgCanvasDefaultLevel1 = UIColor(named: "bgCanvasDefaultLevel1", in: Bundle.module, compatibleWith: nil)!
@@ -70,6 +71,10 @@ public class CompoundUIColorTokens {
     public let gradientSubtleStop6 = CompoundCoreUIColorTokens.transparent
     public let iconAccentPrimary = UIColor(named: "iconAccentPrimary", in: Bundle.module, compatibleWith: nil)!
     public let iconAccentTertiary = UIColor(named: "iconAccentTertiary", in: Bundle.module, compatibleWith: nil)!
+    public let iconBadgeAccent = UIColor(named: "iconBadgeAccent", in: Bundle.module, compatibleWith: nil)!
+    public let iconBadgeDefault = UIColor(named: "iconBadgeDefault", in: Bundle.module, compatibleWith: nil)!
+    public let iconBadgeExternal = UIColor(named: "iconBadgeExternal", in: Bundle.module, compatibleWith: nil)!
+    public let iconBadgeInfo = UIColor(named: "iconBadgeInfo", in: Bundle.module, compatibleWith: nil)!
     public let iconCriticalPrimary = UIColor(named: "iconCriticalPrimary", in: Bundle.module, compatibleWith: nil)!
     public let iconDisabled = UIColor(named: "iconDisabled", in: Bundle.module, compatibleWith: nil)!
     public let iconInfoPrimary = UIColor(named: "iconInfoPrimary", in: Bundle.module, compatibleWith: nil)!
@@ -86,6 +91,8 @@ public class CompoundUIColorTokens {
     public let textActionAccent = UIColor(named: "textActionAccent", in: Bundle.module, compatibleWith: nil)!
     public let textActionPrimary = UIColor(named: "textActionPrimary", in: Bundle.module, compatibleWith: nil)!
     public let textBadgeAccent = UIColor(named: "textBadgeAccent", in: Bundle.module, compatibleWith: nil)!
+    public let textBadgeDefault = UIColor(named: "textBadgeDefault", in: Bundle.module, compatibleWith: nil)!
+    public let textBadgeExternal = UIColor(named: "textBadgeExternal", in: Bundle.module, compatibleWith: nil)!
     public let textBadgeInfo = UIColor(named: "textBadgeInfo", in: Bundle.module, compatibleWith: nil)!
     public let textCriticalPrimary = UIColor(named: "textCriticalPrimary", in: Bundle.module, compatibleWith: nil)!
     public let textDecorative1 = UIColor(named: "textDecorative1", in: Bundle.module, compatibleWith: nil)!

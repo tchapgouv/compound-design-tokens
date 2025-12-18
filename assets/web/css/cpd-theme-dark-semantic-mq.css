@@ -57,6 +57,10 @@
   --cpd-color-icon-success-primary: var(--cpd-color-blue-1200);
   --cpd-color-icon-info-primary: var(--cpd-color-blue-900);
   --cpd-color-icon-on-solid-primary: var(--cpd-color-theme-bg);
+  --cpd-color-icon-badge-accent: var(--cpd-color-green-1200);
+  --cpd-color-icon-badge-info: var(--cpd-color-blue-1200);
+  --cpd-color-icon-badge-default: var(--cpd-color-gray-1200);
+  --cpd-color-icon-badge-external: var(--cpd-color-orange-1200);
   --cpd-color-gradient-action-stop1: var(--cpd-color-blue-600);
   --cpd-color-gradient-action-stop2: var(--cpd-color-blue-600);
   --cpd-color-gradient-action-stop3: var(--cpd-color-blue-600);

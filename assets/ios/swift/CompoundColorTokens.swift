@@ -22,6 +22,7 @@ public class CompoundColorTokens {
     public let bgActionTertiarySelected = CompoundCoreColorTokens.gray400
     public let bgBadgeAccent = Color("bgBadgeAccent", bundle: Bundle.module)
     public let bgBadgeDefault = Color("bgBadgeDefault", bundle: Bundle.module)
+    public let bgBadgeExternal = Color("bgBadgeExternal", bundle: Bundle.module)
     public let bgBadgeInfo = Color("bgBadgeInfo", bundle: Bundle.module)
     public let bgCanvasDefault = CompoundCoreColorTokens.themeBg
     public let bgCanvasDefaultLevel1 = Color("bgCanvasDefaultLevel1", bundle: Bundle.module)
@@ -70,6 +71,10 @@ public class CompoundColorTokens {
     public let gradientSubtleStop6 = CompoundCoreColorTokens.transparent
     public let iconAccentPrimary = Color("iconAccentPrimary", bundle: Bundle.module)
     public let iconAccentTertiary = Color("iconAccentTertiary", bundle: Bundle.module)
+    public let iconBadgeAccent = Color("iconBadgeAccent", bundle: Bundle.module)
+    public let iconBadgeDefault = Color("iconBadgeDefault", bundle: Bundle.module)
+    public let iconBadgeExternal = Color("iconBadgeExternal", bundle: Bundle.module)
+    public let iconBadgeInfo = Color("iconBadgeInfo", bundle: Bundle.module)
     public let iconCriticalPrimary = Color("iconCriticalPrimary", bundle: Bundle.module)
     public let iconDisabled = Color("iconDisabled", bundle: Bundle.module)
     public let iconInfoPrimary = Color("iconInfoPrimary", bundle: Bundle.module)
@@ -86,6 +91,8 @@ public class CompoundColorTokens {
     public let textActionAccent = Color("textActionAccent", bundle: Bundle.module)
     public let textActionPrimary = Color("textActionPrimary", bundle: Bundle.module)
     public let textBadgeAccent = Color("textBadgeAccent", bundle: Bundle.module)
+    public let textBadgeDefault = Color("textBadgeDefault", bundle: Bundle.module)
+    public let textBadgeExternal = Color("textBadgeExternal", bundle: Bundle.module)
     public let textBadgeInfo = Color("textBadgeInfo", bundle: Bundle.module)
     public let textCriticalPrimary = Color("textCriticalPrimary", bundle: Bundle.module)
     public let textDecorative1 = Color("textDecorative1", bundle: Bundle.module)
