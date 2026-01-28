@@ -302,6 +302,25 @@ export const cpdIconSpace = "icons/space.svg";
 export const cpdIconSpaceSolid = "icons/space-solid.svg";
 export const cpdIconGuest = "icons/guest.svg";
 export const cpdIconLeftPanelClose = "icons/left-panel-close.svg";
+export const cpdIconLeftPanelOpen = "icons/left-panel-open.svg";
+export const cpdIconBackspaceSolid = "icons/backspace-solid.svg";
+export const cpdIconBackspace = "icons/backspace.svg";
+export const cpdIconSticker = "icons/sticker.svg";
+export const cpdIconAdvancedSettings = "icons/advanced-settings.svg";
+export const cpdIconTree = "icons/tree.svg";
+export const cpdIconBug = "icons/bug.svg";
+export const cpdIconTranslate = "icons/translate.svg";
+export const cpdIconRotateLeft = "icons/rotate-left.svg";
+export const cpdIconRotateRight = "icons/rotate-right.svg";
+export const cpdIconZoomIn = "icons/zoom-in.svg";
+export const cpdIconZoomOut = "icons/zoom-out.svg";
+export const cpdIconVideoCallOutgoingSolid =
+  "icons/video-call-outgoing-solid.svg";
+export const cpdIconVoiceCallMissedSolid = "icons/voice-call-missed-solid.svg";
+export const cpdIconVoiceCallDeclinedSolid =
+  "icons/voice-call-declined-solid.svg";
+export const cpdIconVoiceCallOutgoingSolid =
+  "icons/voice-call-outgoing-solid.svg";
 export const cpdColorThemeBg = "#101317";
 export const cpdColorGray100 = "#181a1f";
 export const cpdColorGray200 = "#1d1f24";
