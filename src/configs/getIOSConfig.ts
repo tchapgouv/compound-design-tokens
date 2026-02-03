@@ -18,12 +18,11 @@ import iosExclude from "../filters/ios/exclude";
 import { isCoreColor } from "../filters/isCoreColor";
 import isCoreToken from "../filters/isCoreToken";
 import { isCssGradient } from "../filters/isCssGradient";
+import isTypographyToken from "../filters/isTypographyToken";
 import {
   colorAssetInit,
   uiColorAssetInit,
 } from "../transforms/swift/colorAsset";
-import createTemplate from "../utils/createTemplate";
-import isTypographyToken from "../filters/isTypographyToken";
 import createTemplate from "../utils/createTemplate";
 
 const coreColorClass = "CompoundCoreColorTokens";
