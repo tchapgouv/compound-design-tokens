@@ -321,6 +321,9 @@ export const cpdIconVoiceCallDeclinedSolid =
   "icons/voice-call-declined-solid.svg";
 export const cpdIconVoiceCallOutgoingSolid =
   "icons/voice-call-outgoing-solid.svg";
+export const cpdIconStopSolid = "icons/stop-solid.svg";
+export const cpdIconStop = "icons/stop.svg";
+export const cpdIconTheme = "icons/theme.svg";
 export const cpdColorThemeBg = "#ffffff";
 export const cpdColorGray100 = "#FAFBFC";
 export const cpdColorGray200 = "#F6F8F9";
