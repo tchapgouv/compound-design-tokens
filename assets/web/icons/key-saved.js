@@ -1,0 +1,53 @@
+import { forwardRef } from "react";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+function KeySavedIcon(props, ref) {
+  return /*#__PURE__*/_jsxs("svg", {
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 78 65",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: ref,
+    ...props,
+    children: [/*#__PURE__*/_jsx("path", {
+      d: "M63.2792 45.5083V57.5151C63.2792 58.9386 62.1252 60.0926 60.7017 60.0926H12.5775C11.154 60.0926 10 58.9386 10 57.5151V7.57746C10 6.15397 11.154 5 12.5775 5H60.7017C62.1252 5 63.2792 6.15397 63.2792 7.57746V21.6837",
+      stroke: "#BDBDBD",
+      strokeWidth: 2
+    }), /*#__PURE__*/_jsx("path", {
+      d: "M75.8697 25.0119L63.1667 37.7149L54.8996 29.4477",
+      stroke: "#2CCE70",
+      strokeWidth: 4
+    }), /*#__PURE__*/_jsx("circle", {
+      cx: 36.8998,
+      cy: 22.0452,
+      r: 6.16886,
+      fill: "#7E7EC4",
+      stroke: "#7E7EC4",
+      strokeWidth: 0.229551
+    }), /*#__PURE__*/_jsx("line", {
+      x1: 36.6201,
+      y1: 21.9461,
+      x2: 36.6201,
+      y2: 50.6783,
+      stroke: "#7E7EC4",
+      strokeWidth: 2
+    }), /*#__PURE__*/_jsx("line", {
+      x1: 30.9375,
+      y1: 42.5803,
+      x2: 37.242,
+      y2: 42.5803,
+      stroke: "#7E7EC4",
+      strokeWidth: 2
+    }), /*#__PURE__*/_jsx("line", {
+      x1: 30.9375,
+      y1: 47.4972,
+      x2: 37.242,
+      y2: 47.4972,
+      stroke: "#7E7EC4",
+      strokeWidth: 2
+    })]
+  });
+}
+;
+KeySavedIcon.displayName = "KeySavedIcon";
+export default forwardRef(KeySavedIcon);
