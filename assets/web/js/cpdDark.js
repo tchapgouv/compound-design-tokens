@@ -298,6 +298,7 @@ export const cpdIconPresenceStrikethrough8X8 =
   "icons/presence-strikethrough-8x8.svg";
 export const cpdIconError = "icons/error.svg";
 export const cpdIconDialPad = "icons/dial-pad.svg";
+export const cpdIconReOrder = "icons/re-order.svg";
 export const cpdIconSpace = "icons/space.svg";
 export const cpdIconSpaceSolid = "icons/space-solid.svg";
 export const cpdIconGuest = "icons/guest.svg";
@@ -324,6 +325,7 @@ export const cpdIconVoiceCallOutgoingSolid =
 export const cpdIconStopSolid = "icons/stop-solid.svg";
 export const cpdIconStop = "icons/stop.svg";
 export const cpdIconTheme = "icons/theme.svg";
+export const cpdIconSection = "icons/section.svg";
 export const cpdColorThemeBg = "#101317";
 export const cpdColorGray100 = "#1A1D26";
 export const cpdColorGray200 = "#282D39";
@@ -730,12 +732,12 @@ export const cpdColorGradientSubtleLinear =
   "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%)";
 export const cpdColorGradientInfoStop1 = "hsla(221, 100%, 37%, 0.63)";
 export const cpdColorGradientInfoStop2 = "hsl(224, 100%, 22%, 1)";
-export const cpdColorGradientInfoStop3 = "hsl(229, 100%, 20%, 1)";
-export const cpdColorGradientInfoStop4 = "hsl(234, 100%, 18%, 1)";
-export const cpdColorGradientInfoStop5 = "hsl(237, 100%, 18%, 1)";
-export const cpdColorGradientInfoStop6 = "rgba(0,0,0,0)";
 export const cpdColorGradientInfoLinear =
   "linear-gradient(180deg, hsla(221, 100%, 37%, 0.63) 0%, hsl(224, 100%, 22%, 1) 20%, hsl(229, 100%, 20%, 1) 40%, hsl(234, 100%, 18%, 1) 60%, hsl(237, 100%, 18%, 1) 80%, rgba(0,0,0,0) 100%)";
+export const cpdColorGradientCriticalStop1 = "#3e0000";
+export const cpdColorGradientCriticalStop2 = "#101317";
+export const cpdColorGradientCriticalLinear =
+  "linear-gradient(180deg, #3e0000 0%, #101317 100%)";
 export const cpdColorGradientActionStop1 = "#3E5DE7";
 export const cpdColorGradientActionStop2 = "#3E5DE7";
 export const cpdColorGradientActionStop3 = "#3E5DE7";
