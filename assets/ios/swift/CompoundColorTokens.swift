@@ -57,10 +57,10 @@ public class CompoundColorTokens {
     public let gradientActionStop2 = Color("gradientActionStop2", bundle: Bundle.module)
     public let gradientActionStop3 = Color("gradientActionStop3", bundle: Bundle.module)
     public let gradientActionStop4 = Color("gradientActionStop4", bundle: Bundle.module)
-    public let gradientCriticalStop1 = CompoundCoreColorTokens.alphaRed500
-    public let gradientCriticalStop2 = CompoundCoreColorTokens.alphaRed400
-    public let gradientInfoStop1 = CompoundCoreColorTokens.alphaBlue500
-    public let gradientInfoStop2 = CompoundCoreColorTokens.alphaBlue400
+    public let gradientCriticalStop1 = CompoundCoreColorTokens.red200
+    public let gradientCriticalStop2 = CompoundCoreColorTokens.themeBg
+    public let gradientInfoStop1 = CompoundCoreColorTokens.blue200
+    public let gradientInfoStop2 = CompoundCoreColorTokens.themeBg
     public let gradientSubtleStop1 = CompoundCoreColorTokens.transparent
     public let gradientSubtleStop2 = CompoundCoreColorTokens.transparent
     public let gradientSubtleStop3 = CompoundCoreColorTokens.transparent

@@ -730,14 +730,14 @@ export const cpdColorGradientSubtleStop5 = "rgba(0,0,0,0)";
 export const cpdColorGradientSubtleStop6 = "rgba(0,0,0,0)";
 export const cpdColorGradientSubtleLinear =
   "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%)";
-export const cpdColorGradientInfoStop1 = "hsla(229,28%,79%,0.22)";
-export const cpdColorGradientInfoStop2 = "hsla(229,22%,77%,0.18)";
+export const cpdColorGradientInfoStop1 = "#0A1029";
+export const cpdColorGradientInfoStop2 = "#101317";
 export const cpdColorGradientInfoLinear =
-  "linear-gradient(180deg, hsla(229,28%,79%,0.22) 0%, hsla(229,22%,77%,0.18) 20%, hsla(230,16%,71%,0.13) 40%, hsla(228,10%,61%,0.08) 60%, hsla(229,5%,48%,0.04) 80%, rgba(0,0,0,0) 100%)";
-export const cpdColorGradientCriticalStop1 = "#470000";
+  "linear-gradient(180deg, #0A1029 0%, #101317 100%)";
+export const cpdColorGradientCriticalStop1 = "#25090B";
 export const cpdColorGradientCriticalStop2 = "#101317";
 export const cpdColorGradientCriticalLinear =
-  "linear-gradient(180deg, #470000 0%, #101317 100%)";
+  "linear-gradient(180deg, #25090B 0%, #101317 100%)";
 export const cpdColorGradientActionStop1 = "#9BA7DF";
 export const cpdColorGradientActionStop2 = "#9BA7DF";
 export const cpdColorGradientActionStop3 = "#9BA7DF";
