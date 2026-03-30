@@ -28,12 +28,4 @@ public enum CompoundDesignTokensResources {
             registerFont(fontURL: $0)
         }
     }
-    
-    // Set Tchap font globally for UINavigationBar.
-    // Be carfull: it won't be used in custom header Room view.
-    public static func setNavigationBarAppearance() {
-        UINavigationBar.appearance().standardAppearance = UINavigationBarAppearance().withTchapFonts()
-        UINavigationBar.appearance().compactAppearance = UINavigationBarAppearance().withTchapFonts()
-        UINavigationBar.appearance().scrollEdgeAppearance = UINavigationBarAppearance().withTchapFonts()
-    }
 }
