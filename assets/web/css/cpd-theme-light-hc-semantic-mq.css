@@ -67,7 +67,7 @@
   --cpd-color-gradient-subtle-stop4: var(--cpd-color-transparent);
   --cpd-color-gradient-subtle-stop5: var(--cpd-color-transparent);
   --cpd-color-gradient-subtle-stop6: var(--cpd-color-transparent);
-  --cpd-color-gradient-info-stop1: var(--cpd-color-blue-200);
+  --cpd-color-gradient-info-stop1: var(--cpd-color-blue-300);
   --cpd-color-gradient-info-stop2: var(--cpd-color-theme-bg);
   --cpd-color-gradient-critical-stop1: var(--cpd-color-red-200);
   --cpd-color-gradient-critical-stop2: var(--cpd-color-theme-bg);

@@ -730,10 +730,10 @@ export const cpdColorGradientSubtleStop5 = "rgba(0,0,0,0)";
 export const cpdColorGradientSubtleStop6 = "rgba(0,0,0,0)";
 export const cpdColorGradientSubtleLinear =
   "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%)";
-export const cpdColorGradientInfoStop1 = "#F6F8FF";
+export const cpdColorGradientInfoStop1 = "#EFF1FF";
 export const cpdColorGradientInfoStop2 = "#ffffff";
 export const cpdColorGradientInfoLinear =
-  "linear-gradient(180deg, #F6F8FF 0%, #ffffff 100%)";
+  "linear-gradient(180deg, #EFF1FF 0%, #ffffff 100%)";
 export const cpdColorGradientCriticalStop1 = "#FFF6F5";
 export const cpdColorGradientCriticalStop2 = "#ffffff";
 export const cpdColorGradientCriticalLinear =
