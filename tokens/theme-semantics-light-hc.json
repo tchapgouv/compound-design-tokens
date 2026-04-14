@@ -316,7 +316,7 @@
       },
       "info": {
         "stop1": {
-          "value": "{color.blue.200}",
+          "value": "{color.blue.300}",
           "type": "color",
           "description": "Subtle background gradient stop for info"
         },
