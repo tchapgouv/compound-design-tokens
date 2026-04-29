@@ -276,6 +276,77 @@
           "type": "color",
           "description": "Intended for super and send buttons. References gradient/action/stop1 -4"
         }
+      },
+      "subtle": {
+        "stop1": {
+          "value": "{color.transparent}",
+          "type": "color",
+          "description": "Subtle background gradient stop for message highlight and bloom"
+        },
+        "stop2": {
+          "value": "{color.transparent}",
+          "type": "color",
+          "description": "Subtle background gradient stop for message highlight and bloom"
+        },
+        "stop3": {
+          "value": "{color.transparent}",
+          "type": "color",
+          "description": "Subtle background gradient stop for message highlight and bloom"
+        },
+        "stop4": {
+          "value": "{color.transparent}",
+          "type": "color",
+          "description": "Subtle background gradient stop for message highlight and bloom"
+        },
+        "stop5": {
+          "value": "{color.transparent}",
+          "type": "color",
+          "description": "Subtle background gradient stop for message highlight and bloom"
+        },
+        "stop6": {
+          "value": "{color.transparent}",
+          "type": "color",
+          "description": "Subtle background gradient stop for message highlight and bloom"
+        },
+        "linear": {
+          "value": "linear-gradient(180deg, {color.gradient.subtle.stop1} 0%, {color.gradient.subtle.stop2} 20%, {color.gradient.subtle.stop3} 40%, {color.gradient.subtle.stop4} 60%, {color.gradient.subtle.stop5} 80%, {color.gradient.subtle.stop6} 100%)",
+          "type": "color",
+          "description": "subtle accent gradient token, for bloom and message highlight"
+        }
+      },
+      "info": {
+        "stop1": {
+          "value": "{color.blue.300}",
+          "type": "color",
+          "description": "Subtle background gradient stop for info"
+        },
+        "stop2": {
+          "value": "{color.theme.bg}",
+          "type": "color",
+          "description": "Subtle background gradient stop for info"
+        },
+        "linear": {
+          "value": "linear-gradient(180deg, {color.gradient.info.stop1} 0%, {color.gradient.info.stop2} 100%)",
+          "type": "color",
+          "description": "info gradient"
+        }
+      },
+      "critical": {
+        "stop1": {
+          "value": "{color.red.200}",
+          "type": "color",
+          "description": "Subtle background gradient stop for critical"
+        },
+        "stop2": {
+          "value": "{color.theme.bg}",
+          "type": "color",
+          "description": "Subtle background gradient stop for critical"
+        },
+        "linear": {
+          "value": "linear-gradient(180deg, {color.gradient.critical.stop1} 0%, {color.gradient.critical.stop2} 100%)",
+          "type": "color",
+          "description": "Critical gradient"
+        }
       }
     },
     "icon": {

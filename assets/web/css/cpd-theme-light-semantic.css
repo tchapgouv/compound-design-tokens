@@ -61,9 +61,22 @@
   --cpd-color-icon-badge-info: var(--cpd-color-blue-1200);
   --cpd-color-icon-badge-default: var(--cpd-color-gray-1200);
   --cpd-color-icon-badge-external: var(--cpd-color-orange-1200);
+  --cpd-color-gradient-subtle-stop1: var(--cpd-color-transparent);
+  --cpd-color-gradient-subtle-stop2: var(--cpd-color-transparent);
+  --cpd-color-gradient-subtle-stop3: var(--cpd-color-transparent);
+  --cpd-color-gradient-subtle-stop4: var(--cpd-color-transparent);
+  --cpd-color-gradient-subtle-stop5: var(--cpd-color-transparent);
+  --cpd-color-gradient-subtle-stop6: var(--cpd-color-transparent);
+  --cpd-color-gradient-info-stop1: var(--cpd-color-blue-300);
+  --cpd-color-gradient-info-stop2: var(--cpd-color-theme-bg);
+  --cpd-color-gradient-critical-stop1: var(--cpd-color-red-200);
+  --cpd-color-gradient-critical-stop2: var(--cpd-color-theme-bg);
   --cpd-color-gradient-action-stop1: var(--cpd-color-blue-900);
   --cpd-color-gradient-action-stop2: var(--cpd-color-blue-900);
   --cpd-color-gradient-action-stop3: var(--cpd-color-blue-900);
   --cpd-color-gradient-action-stop4: var(--cpd-color-blue-900);
+  --cpd-color-gradient-subtle-linear: linear-gradient(180deg, var(--cpd-color-gradient-subtle-stop1) 0%, var(--cpd-color-gradient-subtle-stop2) 20%, var(--cpd-color-gradient-subtle-stop3) 40%, var(--cpd-color-gradient-subtle-stop4) 60%, var(--cpd-color-gradient-subtle-stop5) 80%, var(--cpd-color-gradient-subtle-stop6) 100%);
+  --cpd-color-gradient-info-linear: linear-gradient(180deg, var(--cpd-color-gradient-info-stop1) 0%, var(--cpd-color-gradient-info-stop2) 100%);
+  --cpd-color-gradient-critical-linear: linear-gradient(180deg, var(--cpd-color-gradient-critical-stop1) 0%, var(--cpd-color-gradient-critical-stop2) 100%);
   --cpd-color-gradient-action-linear: linear-gradient(180deg, var(--cpd-color-gradient-action-stop1) 0%, var(--cpd-color-gradient-action-stop2) 33%, var(--cpd-color-gradient-action-stop3) 66%, var(--cpd-color-gradient-action-stop4) 100%);
 }
