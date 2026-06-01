@@ -1,6 +1,7 @@
 module.exports = {
   AdminIcon: require("./admin.cjs"),
   AdvancedSettingsIcon: require("./advanced-settings.cjs"),
+  AiIcon: require("./ai.cjs"),
   ArrowDownIcon: require("./arrow-down.cjs"),
   ArrowLeftIcon: require("./arrow-left.cjs"),
   ArrowRightIcon: require("./arrow-right.cjs"),
@@ -42,6 +43,7 @@ module.exports = {
   CopyIcon: require("./copy.cjs"),
   DarkModeIcon: require("./dark-mode.cjs"),
   DeleteIcon: require("./delete.cjs"),
+  DevicePasskeyIcon: require("./device-passkey.cjs"),
   DevicesIcon: require("./devices.cjs"),
   DialPadIcon: require("./dial-pad.cjs"),
   DocumentIcon: require("./document.cjs"),

@@ -1,5 +1,6 @@
 export { default as AdminIcon } from "./admin.js";
 export { default as AdvancedSettingsIcon } from "./advanced-settings.js";
+export { default as AiIcon } from "./ai.js";
 export { default as ArrowDownIcon } from "./arrow-down.js";
 export { default as ArrowLeftIcon } from "./arrow-left.js";
 export { default as ArrowRightIcon } from "./arrow-right.js";
@@ -41,6 +42,7 @@ export { default as ComputerIcon } from "./computer.js";
 export { default as CopyIcon } from "./copy.js";
 export { default as DarkModeIcon } from "./dark-mode.js";
 export { default as DeleteIcon } from "./delete.js";
+export { default as DevicePasskeyIcon } from "./device-passkey.js";
 export { default as DevicesIcon } from "./devices.js";
 export { default as DialPadIcon } from "./dial-pad.js";
 export { default as DocumentIcon } from "./document.js";

@@ -28,6 +28,9 @@ object CompoundIcons {
     @Composable fun AdvancedSettings(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_advanced_settings)
     }
+    @Composable fun Ai(): ImageVector {
+        return ImageVector.vectorResource(R.drawable.ic_compound_ai)
+    }
     @Composable fun ArrowDown(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_arrow_down)
     }
@@ -147,6 +150,9 @@ object CompoundIcons {
     }
     @Composable fun Delete(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_delete)
+    }
+    @Composable fun DevicePasskey(): ImageVector {
+        return ImageVector.vectorResource(R.drawable.ic_compound_device_passkey)
     }
     @Composable fun Devices(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_devices)
@@ -698,6 +704,7 @@ object CompoundIcons {
     val all @Composable get() = persistentListOf<ImageVector>(
         Admin(),
         AdvancedSettings(),
+        Ai(),
         ArrowDown(),
         ArrowLeft(),
         ArrowRight(),
@@ -738,6 +745,7 @@ object CompoundIcons {
         Copy(),
         DarkMode(),
         Delete(),
+        DevicePasskey(),
         Devices(),
         DialPad(),
         Document(),
@@ -925,6 +933,7 @@ object CompoundIcons {
     val allResIds get() = persistentListOf(
         R.drawable.ic_compound_admin,
         R.drawable.ic_compound_advanced_settings,
+        R.drawable.ic_compound_ai,
         R.drawable.ic_compound_arrow_down,
         R.drawable.ic_compound_arrow_left,
         R.drawable.ic_compound_arrow_right,
@@ -965,6 +974,7 @@ object CompoundIcons {
         R.drawable.ic_compound_copy,
         R.drawable.ic_compound_dark_mode,
         R.drawable.ic_compound_delete,
+        R.drawable.ic_compound_device_passkey,
         R.drawable.ic_compound_devices,
         R.drawable.ic_compound_dial_pad,
         R.drawable.ic_compound_document,
