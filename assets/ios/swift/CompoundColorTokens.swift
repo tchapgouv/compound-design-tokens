@@ -43,6 +43,7 @@ public class CompoundColorTokens {
     public let bgSubtleSecondary = Color("bgSubtleSecondary", bundle: Bundle.module)
     public let bgSubtleSecondaryLevel0 = Color("bgSubtleSecondaryLevel0", bundle: Bundle.module)
     public let bgSuccessSubtle = CompoundCoreColorTokens.green400
+    public let borderAccentPrimary = CompoundCoreColorTokens.green900
     public let borderAccentSubtle = CompoundCoreColorTokens.blue700
     public let borderCriticalHovered = CompoundCoreColorTokens.red1000
     public let borderCriticalPrimary = CompoundCoreColorTokens.red900
@@ -87,6 +88,7 @@ public class CompoundColorTokens {
     public let iconSuccessPrimary = Color("iconSuccessPrimary", bundle: Bundle.module)
     public let iconTertiary = Color("iconTertiary", bundle: Bundle.module)
     public let iconTertiaryAlpha = Color("iconTertiaryAlpha", bundle: Bundle.module)
+    public let separatorCanvas = CompoundCoreColorTokens.gray400
     public let textActionAccent = Color("textActionAccent", bundle: Bundle.module)
     public let textActionPrimary = Color("textActionPrimary", bundle: Bundle.module)
     public let textBadgeAccent = Color("textBadgeAccent", bundle: Bundle.module)

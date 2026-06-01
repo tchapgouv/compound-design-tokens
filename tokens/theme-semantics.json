@@ -380,6 +380,11 @@
           "value": "{color.blue.700}",
           "type": "color",
           "description": "accent border intended for keylines on message highlights"
+        },
+        "primary": {
+          "value": "{color.green.900}",
+          "type": "color",
+          "description": "Accent borders for containers"
         }
       }
     },
@@ -563,6 +568,13 @@
           "type": "color",
           "description": "Critical gradient"
         }
+      }
+    },
+    "separator": {
+      "canvas": {
+        "value": "{color.gray.400}",
+        "type": "color",
+        "description": "Used to separate core sections of the UI"
       }
     }
   }
