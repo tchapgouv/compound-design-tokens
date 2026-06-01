@@ -55,12 +55,8 @@ data class SemanticColors(
     val bgBadgeInfo: Color,
     val bgBadgePrimary: Color,
     val bgBadgeSecondary: Color,
-    /** Badge external background colour */
-    val bgBadgeExternal: Color,
     /** Default global background for the user interface. Elevation: Default (Level 0) */
     val bgCanvasDefault: Color,
-    /** Default global background for the user interface. Elevation: Level 1. */
-    val bgCanvasDefaultLevel1: Color,
     /** Default background for disabled elements. There's no minimum contrast requirement. */
     val bgCanvasDisabled: Color,
     /** High-contrast background color for critical state. State: Hover. */

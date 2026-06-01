@@ -6,10 +6,10 @@
 import SwiftUI
 
 public class CompoundColorTokens {
-    public let bgAccentHovered = Color("bgAccentHovered", bundle: Bundle.module)
-    public let bgAccentPressed = Color("bgAccentPressed", bundle: Bundle.module)
-    public let bgAccentRest = Color("bgAccentRest", bundle: Bundle.module)
-    public let bgAccentSelected = Color("bgAccentSelected", bundle: Bundle.module)
+    public let bgAccentHovered = CompoundCoreColorTokens.blue1000
+    public let bgAccentPressed = CompoundCoreColorTokens.blue1100
+    public let bgAccentRest = CompoundCoreColorTokens.blue900
+    public let bgAccentSelected = CompoundCoreColorTokens.blue300
     public let bgActionPrimaryDisabled = Color("bgActionPrimaryDisabled", bundle: Bundle.module)
     public let bgActionPrimaryHovered = Color("bgActionPrimaryHovered", bundle: Bundle.module)
     public let bgActionPrimaryPressed = Color("bgActionPrimaryPressed", bundle: Bundle.module)
@@ -27,12 +27,11 @@ public class CompoundColorTokens {
     public let bgBadgePrimary = CompoundCoreColorTokens.gray1400
     public let bgBadgeSecondary = CompoundCoreColorTokens.gray400
     public let bgCanvasDefault = CompoundCoreColorTokens.themeBg
-    public let bgCanvasDefaultLevel1 = Color("bgCanvasDefaultLevel1", bundle: Bundle.module)
     public let bgCanvasDisabled = CompoundCoreColorTokens.gray200
-    public let bgCriticalHovered = Color("bgCriticalHovered", bundle: Bundle.module)
-    public let bgCriticalPrimary = Color("bgCriticalPrimary", bundle: Bundle.module)
-    public let bgCriticalSubtle = Color("bgCriticalSubtle", bundle: Bundle.module)
-    public let bgCriticalSubtleHovered = Color("bgCriticalSubtleHovered", bundle: Bundle.module)
+    public let bgCriticalHovered = CompoundCoreColorTokens.red1000
+    public let bgCriticalPrimary = CompoundCoreColorTokens.red900
+    public let bgCriticalSubtle = CompoundCoreColorTokens.red500
+    public let bgCriticalSubtleHovered = CompoundCoreColorTokens.red300
     public let bgDecorative1 = CompoundCoreColorTokens.green300
     public let bgDecorative2 = CompoundCoreColorTokens.cyan300
     public let bgDecorative3 = CompoundCoreColorTokens.fuchsia300

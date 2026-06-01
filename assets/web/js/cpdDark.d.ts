@@ -676,6 +676,7 @@ export const cpdColorBgBadgeDefault: string;
 export const cpdColorBgBadgePrimary: string;
 export const cpdColorBgBadgeSecondary: string;
 export const cpdColorBgBadgeCritical: string;
+export const cpdColorBgBadgeExternal: string;
 export const cpdColorBgSubtleSecondaryLevel0: string;
 export const cpdColorBorderDisabled: string;
 export const cpdColorBorderFocused: string;
