@@ -36,24 +36,6 @@
         {
           "appearance": "luminosity",
           "value": "dark"
-        }
-      ],
-      "color": {
-        "color-space": "srgb",
-        "components": {
-          "alpha": "1.0000",
-          "red": "0.7098",
-          "green": "0.8353",
-          "blue": "0.9922"
-        }
-      }
-    },
-    {
-      "idiom": "universal",
-      "appearances": [
-        {
-          "appearance": "luminosity",
-          "value": "dark"
         },
         {
           "appearance": "contrast",
