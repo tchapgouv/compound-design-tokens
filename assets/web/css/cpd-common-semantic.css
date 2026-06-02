@@ -4,6 +4,10 @@
   --cpd-color-bg-action-tertiary-rest: var(--cpd-color-theme-bg);
   --cpd-color-bg-action-tertiary-hovered: var(--cpd-color-gray-300);
   --cpd-color-bg-action-tertiary-selected: var(--cpd-color-gray-400);
+  --cpd-color-bg-critical-primary: var(--cpd-color-red-900);
+  --cpd-color-bg-critical-hovered: var(--cpd-color-red-1000);
+  --cpd-color-bg-critical-subtle: var(--cpd-color-red-500);
+  --cpd-color-bg-critical-subtle-hovered: var(--cpd-color-red-300);
   --cpd-color-bg-success-subtle: var(--cpd-color-green-400);
   --cpd-color-bg-info-subtle: var(--cpd-color-blue-200);
   --cpd-color-bg-decorative-1: var(--cpd-color-green-300);
@@ -12,6 +16,17 @@
   --cpd-color-bg-decorative-4: var(--cpd-color-purple-300);
   --cpd-color-bg-decorative-5: var(--cpd-color-pink-300);
   --cpd-color-bg-decorative-6: var(--cpd-color-orange-300);
+  --cpd-color-bg-accent-rest: var(--cpd-color-blue-900);
+  --cpd-color-bg-accent-hovered: var(--cpd-color-blue-1000);
+  --cpd-color-bg-accent-pressed: var(--cpd-color-blue-1100);
+  --cpd-color-bg-accent-selected: var(--cpd-color-blue-300);
+  --cpd-color-bg-badge-accent: var(--cpd-color-green-400);
+  --cpd-color-bg-badge-info: var(--cpd-color-blue-400);
+  --cpd-color-bg-badge-default: var(--cpd-color-theme-bg);
+  --cpd-color-bg-badge-primary: var(--cpd-color-gray-1400);
+  --cpd-color-bg-badge-secondary: var(--cpd-color-gray-400);
+  --cpd-color-bg-badge-critical: var(--cpd-color-red-300);
+  --cpd-color-bg-badge-external: var(--cpd-color-alpha-orange-300);
   --cpd-color-border-disabled: var(--cpd-color-gray-500);
   --cpd-color-border-focused: var(--cpd-color-blue-500);
   --cpd-color-border-interactive-primary: var(--cpd-color-gray-800);
@@ -23,4 +38,7 @@
   --cpd-color-border-success-subtle: var(--cpd-color-green-500);
   --cpd-color-border-info-subtle: var(--cpd-color-blue-700);
   --cpd-color-border-accent-subtle: var(--cpd-color-blue-700);
+  --cpd-color-border-accent-primary: var(--cpd-color-green-900);
+  --cpd-color-separator-primary: var(--cpd-color-gray-400);
+  --cpd-color-separator-secondary: var(--cpd-color-gray-300);
 }

@@ -288,6 +288,36 @@
           "type": "color",
           "description": "Background colour for accent or brand actions. State: Selected"
         }
+      },
+      "badge": {
+        "accent": {
+          "value": "{color.green.400}",
+          "type": "color"
+        },
+        "info": {
+          "value": "{color.blue.400}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{color.theme.bg}",
+          "type": "color"
+        },
+        "primary": {
+          "value": "{color.gray.1400}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.400}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.300}",
+          "type": "color"
+        },
+        "external": {
+          "value": "{color.alpha.orange.300}",
+          "type": "color"
+        }
       }
     },
     "border": {
@@ -354,6 +384,11 @@
           "value": "{color.blue.700}",
           "type": "color",
           "description": "accent border intended for keylines on message highlights"
+        },
+        "primary": {
+          "value": "{color.green.900}",
+          "type": "color",
+          "description": "Accent borders for containers"
         }
       }
     },
@@ -447,22 +482,22 @@
         "accent": {
           "value": "{color.green.1200}",
           "type": "color",
-          "description": "Badge accent text colour"
+          "description": "Badge accent icon colour"
         },
         "info": {
           "value": "{color.blue.1200}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge info icon colour"
         },
         "default": {
           "value": "{color.gray.1200}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge info icon colour"
         },
         "external": {
           "value": "{color.orange.1200}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge info icon colour"
         }
       }
     },
@@ -537,6 +572,18 @@
           "type": "color",
           "description": "Critical gradient"
         }
+      }
+    },
+    "separator": {
+      "primary": {
+        "value": "{color.gray.400}",
+        "type": "color",
+        "description": "Used to separate core sections of the UI as well as containers"
+      },
+      "secondary": {
+        "value": "{color.gray.300}",
+        "type": "color",
+        "description": "Secondary shade for separating sections of components or list items"
       }
     }
   }

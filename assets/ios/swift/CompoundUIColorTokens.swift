@@ -6,10 +6,10 @@
 import UIKit
 
 public class CompoundUIColorTokens {
-    public let bgAccentHovered = UIColor(named: "bgAccentHovered", in: Bundle.module, compatibleWith: nil)!
-    public let bgAccentPressed = UIColor(named: "bgAccentPressed", in: Bundle.module, compatibleWith: nil)!
-    public let bgAccentRest = UIColor(named: "bgAccentRest", in: Bundle.module, compatibleWith: nil)!
-    public let bgAccentSelected = UIColor(named: "bgAccentSelected", in: Bundle.module, compatibleWith: nil)!
+    public let bgAccentHovered = CompoundCoreUIColorTokens.blue1000
+    public let bgAccentPressed = CompoundCoreUIColorTokens.blue1100
+    public let bgAccentRest = CompoundCoreUIColorTokens.blue900
+    public let bgAccentSelected = CompoundCoreUIColorTokens.blue300
     public let bgActionPrimaryDisabled = UIColor(named: "bgActionPrimaryDisabled", in: Bundle.module, compatibleWith: nil)!
     public let bgActionPrimaryHovered = UIColor(named: "bgActionPrimaryHovered", in: Bundle.module, compatibleWith: nil)!
     public let bgActionPrimaryPressed = UIColor(named: "bgActionPrimaryPressed", in: Bundle.module, compatibleWith: nil)!
@@ -20,17 +20,20 @@ public class CompoundUIColorTokens {
     public let bgActionTertiaryHovered = CompoundCoreUIColorTokens.gray300
     public let bgActionTertiaryRest = CompoundCoreUIColorTokens.themeBg
     public let bgActionTertiarySelected = CompoundCoreUIColorTokens.gray400
-    public let bgBadgeAccent = UIColor(named: "bgBadgeAccent", in: Bundle.module, compatibleWith: nil)!
-    public let bgBadgeDefault = UIColor(named: "bgBadgeDefault", in: Bundle.module, compatibleWith: nil)!
-    public let bgBadgeExternal = UIColor(named: "bgBadgeExternal", in: Bundle.module, compatibleWith: nil)!
-    public let bgBadgeInfo = UIColor(named: "bgBadgeInfo", in: Bundle.module, compatibleWith: nil)!
+    public let bgBadgeAccent = CompoundCoreUIColorTokens.green400
+    public let bgBadgeCritical = CompoundCoreUIColorTokens.red300
+    public let bgBadgeDefault = CompoundCoreUIColorTokens.themeBg
+    public let bgBadgeExternal = CompoundCoreUIColorTokens.alphaOrange300
+    public let bgBadgeInfo = CompoundCoreUIColorTokens.blue400
+    public let bgBadgePrimary = CompoundCoreUIColorTokens.gray1400
+    public let bgBadgeSecondary = CompoundCoreUIColorTokens.gray400
     public let bgCanvasDefault = CompoundCoreUIColorTokens.themeBg
     public let bgCanvasDefaultLevel1 = UIColor(named: "bgCanvasDefaultLevel1", in: Bundle.module, compatibleWith: nil)!
     public let bgCanvasDisabled = CompoundCoreUIColorTokens.gray200
-    public let bgCriticalHovered = UIColor(named: "bgCriticalHovered", in: Bundle.module, compatibleWith: nil)!
-    public let bgCriticalPrimary = UIColor(named: "bgCriticalPrimary", in: Bundle.module, compatibleWith: nil)!
-    public let bgCriticalSubtle = UIColor(named: "bgCriticalSubtle", in: Bundle.module, compatibleWith: nil)!
-    public let bgCriticalSubtleHovered = UIColor(named: "bgCriticalSubtleHovered", in: Bundle.module, compatibleWith: nil)!
+    public let bgCriticalHovered = CompoundCoreUIColorTokens.red1000
+    public let bgCriticalPrimary = CompoundCoreUIColorTokens.red900
+    public let bgCriticalSubtle = CompoundCoreUIColorTokens.red500
+    public let bgCriticalSubtleHovered = CompoundCoreUIColorTokens.red300
     public let bgDecorative1 = CompoundCoreUIColorTokens.green300
     public let bgDecorative2 = CompoundCoreUIColorTokens.cyan300
     public let bgDecorative3 = CompoundCoreUIColorTokens.fuchsia300
@@ -42,6 +45,7 @@ public class CompoundUIColorTokens {
     public let bgSubtleSecondary = UIColor(named: "bgSubtleSecondary", in: Bundle.module, compatibleWith: nil)!
     public let bgSubtleSecondaryLevel0 = UIColor(named: "bgSubtleSecondaryLevel0", in: Bundle.module, compatibleWith: nil)!
     public let bgSuccessSubtle = CompoundCoreUIColorTokens.green400
+    public let borderAccentPrimary = CompoundCoreUIColorTokens.green900
     public let borderAccentSubtle = CompoundCoreUIColorTokens.blue700
     public let borderCriticalHovered = CompoundCoreUIColorTokens.red1000
     public let borderCriticalPrimary = CompoundCoreUIColorTokens.red900
@@ -86,6 +90,8 @@ public class CompoundUIColorTokens {
     public let iconSuccessPrimary = UIColor(named: "iconSuccessPrimary", in: Bundle.module, compatibleWith: nil)!
     public let iconTertiary = UIColor(named: "iconTertiary", in: Bundle.module, compatibleWith: nil)!
     public let iconTertiaryAlpha = UIColor(named: "iconTertiaryAlpha", in: Bundle.module, compatibleWith: nil)!
+    public let separatorPrimary = CompoundCoreUIColorTokens.gray400
+    public let separatorSecondary = CompoundCoreUIColorTokens.gray300
     public let textActionAccent = UIColor(named: "textActionAccent", in: Bundle.module, compatibleWith: nil)!
     public let textActionPrimary = UIColor(named: "textActionPrimary", in: Bundle.module, compatibleWith: nil)!
     public let textBadgeAccent = UIColor(named: "textBadgeAccent", in: Bundle.module, compatibleWith: nil)!

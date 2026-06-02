@@ -130,6 +130,9 @@ object CompoundIcons {
     @Composable fun Collapse(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_collapse)
     }
+    @Composable fun CollapseAll(): ImageVector {
+        return ImageVector.vectorResource(R.drawable.ic_compound_collapse_all)
+    }
     @Composable fun Company(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_company)
     }
@@ -147,6 +150,9 @@ object CompoundIcons {
     }
     @Composable fun Delete(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_delete)
+    }
+    @Composable fun DevicePasskey(): ImageVector {
+        return ImageVector.vectorResource(R.drawable.ic_compound_device_passkey)
     }
     @Composable fun Devices(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_devices)
@@ -732,12 +738,14 @@ object CompoundIcons {
         CloudSolid(),
         Code(),
         Collapse(),
+        CollapseAll(),
         Company(),
         Compose(),
         Computer(),
         Copy(),
         DarkMode(),
         Delete(),
+        DevicePasskey(),
         Devices(),
         DialPad(),
         Document(),
@@ -959,12 +967,14 @@ object CompoundIcons {
         R.drawable.ic_compound_cloud_solid,
         R.drawable.ic_compound_code,
         R.drawable.ic_compound_collapse,
+        R.drawable.ic_compound_collapse_all,
         R.drawable.ic_compound_company,
         R.drawable.ic_compound_compose,
         R.drawable.ic_compound_computer,
         R.drawable.ic_compound_copy,
         R.drawable.ic_compound_dark_mode,
         R.drawable.ic_compound_delete,
+        R.drawable.ic_compound_device_passkey,
         R.drawable.ic_compound_devices,
         R.drawable.ic_compound_dial_pad,
         R.drawable.ic_compound_document,
