@@ -133,12 +133,12 @@
         "default": {
           "value": "{color.gray.1100}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge default text colour"
         },
         "external": {
           "value": "{color.orange.1100}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge external text colour"
         }
       }
     },
@@ -332,22 +332,22 @@
         "accent": {
           "value": "{color.green.1100}",
           "type": "color",
-          "description": "Badge accent text colour"
+          "description": "Badge accent icon colour"
         },
         "info": {
           "value": "{color.blue.1100}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge info icon colour"
         },
         "default": {
           "value": "{color.gray.1100}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge default icon colour"
         },
         "external": {
           "value": "{color.orange.1100}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge external icon colour"
         }
       }
     }

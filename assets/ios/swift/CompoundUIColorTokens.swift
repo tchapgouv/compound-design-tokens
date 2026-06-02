@@ -23,7 +23,7 @@ public class CompoundUIColorTokens {
     public let bgBadgeAccent = CompoundCoreUIColorTokens.green400
     public let bgBadgeCritical = CompoundCoreUIColorTokens.red300
     public let bgBadgeDefault = CompoundCoreUIColorTokens.themeBg
-    public let bgBadgeExternal = CompoundCoreUIColorTokens.alphaOrange300
+    public let bgBadgeExternal = CompoundCoreUIColorTokens.orange300
     public let bgBadgeInfo = CompoundCoreUIColorTokens.blue400
     public let bgBadgePrimary = CompoundCoreUIColorTokens.gray1400
     public let bgBadgeSecondary = CompoundCoreUIColorTokens.gray400

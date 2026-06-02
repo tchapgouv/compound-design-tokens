@@ -1,4 +1,5 @@
 .cpd-theme-dark.cpd-theme-dark {
+  --cpd-color-text-on-solid-primary: var(--cpd-color-gray-1400);
   --cpd-color-bg-subtle-primary: var(--cpd-color-blue-200);
   --cpd-color-bg-subtle-secondary: var(--cpd-color-gray-200);
   --cpd-color-bg-canvas-default-level-1: var(--cpd-color-gray-200);
@@ -36,7 +37,6 @@
   --cpd-color-icon-badge-accent: var(--cpd-color-green-1200);
   --cpd-color-icon-badge-info: var(--cpd-color-blue-1200);
   --cpd-color-icon-badge-default: var(--cpd-color-gray-1200);
-  --cpd-color-icon-badge-external: var(--cpd-color-orange-1200);
   --cpd-color-gradient-subtle-stop1: var(--cpd-color-transparent);
   --cpd-color-gradient-subtle-stop2: var(--cpd-color-transparent);
   --cpd-color-gradient-subtle-stop3: var(--cpd-color-transparent);
