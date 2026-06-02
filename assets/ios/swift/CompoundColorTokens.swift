@@ -23,6 +23,7 @@ public class CompoundColorTokens {
     public let bgBadgeAccent = CompoundCoreColorTokens.green400
     public let bgBadgeCritical = CompoundCoreColorTokens.red300
     public let bgBadgeDefault = CompoundCoreColorTokens.themeBg
+    public let bgBadgeExternal = CompoundCoreColorTokens.alphaOrange300
     public let bgBadgeInfo = CompoundCoreColorTokens.blue400
     public let bgBadgePrimary = CompoundCoreColorTokens.gray1400
     public let bgBadgeSecondary = CompoundCoreColorTokens.gray400
@@ -89,6 +90,7 @@ public class CompoundColorTokens {
     public let iconTertiary = Color("iconTertiary", bundle: Bundle.module)
     public let iconTertiaryAlpha = Color("iconTertiaryAlpha", bundle: Bundle.module)
     public let separatorPrimary = CompoundCoreColorTokens.gray400
+    public let separatorSecondary = CompoundCoreColorTokens.gray300
     public let textActionAccent = Color("textActionAccent", bundle: Bundle.module)
     public let textActionPrimary = Color("textActionPrimary", bundle: Bundle.module)
     public let textBadgeAccent = Color("textBadgeAccent", bundle: Bundle.module)

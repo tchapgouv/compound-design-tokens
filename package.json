@@ -1,6 +1,6 @@
 {
   "name": "@vector-im/compound-design-tokens",
-  "version": "10.0.0",
+  "version": "10.1.0",
   "description": "Compound design tokens",
   "sideEffects": false,
   "scripts": {
@@ -85,16 +85,15 @@
     "vite": "^8.0.0",
     "zod": "^4.0.0"
   },
-  "dependencies": {},
   "peerDependencies": {
     "@types/react": "*",
     "react": "^17 || ^18 || ^19.0.0"
   },
   "peerDependenciesMeta": {
-    "react": {
+    "@types/react": {
       "optional": true
     },
-    "@types/react": {
+    "react": {
       "optional": true
     }
   }
