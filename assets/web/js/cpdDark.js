@@ -328,6 +328,7 @@ export const cpdIconStop = "icons/stop.svg";
 export const cpdIconTheme = "icons/theme.svg";
 export const cpdIconSection = "icons/section.svg";
 export const cpdIconCollapseAll = "icons/collapse-all.svg";
+export const cpdIconFolder = "icons/folder.svg";
 export const cpdColorThemeBg = "#101317";
 export const cpdColorGray100 = "#1A1D26";
 export const cpdColorGray200 = "#282D39";
