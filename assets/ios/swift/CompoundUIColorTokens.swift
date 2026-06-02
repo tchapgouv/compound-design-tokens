@@ -91,6 +91,7 @@ public class CompoundUIColorTokens {
     public let iconTertiary = UIColor(named: "iconTertiary", in: Bundle.module, compatibleWith: nil)!
     public let iconTertiaryAlpha = UIColor(named: "iconTertiaryAlpha", in: Bundle.module, compatibleWith: nil)!
     public let separatorPrimary = CompoundCoreUIColorTokens.gray400
+    public let separatorSecondary = CompoundCoreUIColorTokens.gray300
     public let textActionAccent = UIColor(named: "textActionAccent", in: Bundle.module, compatibleWith: nil)!
     public let textActionPrimary = UIColor(named: "textActionPrimary", in: Bundle.module, compatibleWith: nil)!
     public let textBadgeAccent = UIColor(named: "textBadgeAccent", in: Bundle.module, compatibleWith: nil)!

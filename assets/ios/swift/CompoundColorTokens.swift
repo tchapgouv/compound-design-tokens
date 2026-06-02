@@ -91,6 +91,7 @@ public class CompoundColorTokens {
     public let iconTertiary = Color("iconTertiary", bundle: Bundle.module)
     public let iconTertiaryAlpha = Color("iconTertiaryAlpha", bundle: Bundle.module)
     public let separatorPrimary = CompoundCoreColorTokens.gray400
+    public let separatorSecondary = CompoundCoreColorTokens.gray300
     public let textActionAccent = Color("textActionAccent", bundle: Bundle.module)
     public let textActionPrimary = Color("textActionPrimary", bundle: Bundle.module)
     public let textBadgeAccent = Color("textBadgeAccent", bundle: Bundle.module)

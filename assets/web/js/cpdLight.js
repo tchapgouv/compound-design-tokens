@@ -327,6 +327,7 @@ export const cpdIconStopSolid = "icons/stop-solid.svg";
 export const cpdIconStop = "icons/stop.svg";
 export const cpdIconTheme = "icons/theme.svg";
 export const cpdIconSection = "icons/section.svg";
+export const cpdIconCollapseAll = "icons/collapse-all.svg";
 export const cpdColorThemeBg = "#ffffff";
 export const cpdColorGray100 = "#FAFBFC";
 export const cpdColorGray200 = "#F6F8F9";
@@ -750,3 +751,4 @@ export const cpdColorGradientActionStop4 = "#3E5DE7";
 export const cpdColorGradientActionLinear =
   "linear-gradient(180deg, #3E5DE7 0%, #3E5DE7 33%, #3E5DE7 66%, #3E5DE7 100%)";
 export const cpdColorSeparatorPrimary = "#E3E5EC";
+export const cpdColorSeparatorSecondary = "#EFF2F5";
