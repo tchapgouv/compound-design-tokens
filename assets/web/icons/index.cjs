@@ -35,6 +35,7 @@ module.exports = {
   CloudSolidIcon: require("./cloud-solid.cjs"),
   CloudIcon: require("./cloud.cjs"),
   CodeIcon: require("./code.cjs"),
+  CollapseAllIcon: require("./collapse-all.cjs"),
   CollapseIcon: require("./collapse.cjs"),
   CompanyIcon: require("./company.cjs"),
   ComposeIcon: require("./compose.cjs"),
