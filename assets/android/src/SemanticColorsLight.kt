@@ -40,6 +40,7 @@ val compoundColorsLight = SemanticColors(
     bgBadgeAccent = LightColorTokens.colorGreen400,
     bgBadgeCritical = LightColorTokens.colorRed300,
     bgBadgeDefault = LightColorTokens.colorThemeBg,
+    bgBadgeExternal = LightColorTokens.colorAlphaOrange300,
     bgBadgeInfo = LightColorTokens.colorBlue400,
     bgBadgePrimary = LightColorTokens.colorGray1400,
     bgBadgeSecondary = LightColorTokens.colorGray400,

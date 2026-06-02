@@ -16,6 +16,13 @@
         "type": "color",
         "description": "Low contrast surfaces.\nElevation: Default (Level 1)."
       },
+      "canvas": {
+        "default-level-1": {
+          "value": "{color.gray.300}",
+          "type": "color",
+          "description": "Default global background for the user interface.\nElevation: Level 1."
+        }
+      },
       "action": {
         "primary": {
           "rest": {

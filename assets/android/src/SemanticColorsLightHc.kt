@@ -40,6 +40,7 @@ val compoundColorsHcLight = SemanticColors(
     bgBadgeAccent = LightHcColorTokens.colorGreen400,
     bgBadgeCritical = LightHcColorTokens.colorRed300,
     bgBadgeDefault = LightHcColorTokens.colorThemeBg,
+    bgBadgeExternal = LightHcColorTokens.colorAlphaOrange300,
     bgBadgeInfo = LightHcColorTokens.colorBlue400,
     bgBadgePrimary = LightHcColorTokens.colorGray1400,
     bgBadgeSecondary = LightHcColorTokens.colorGray400,

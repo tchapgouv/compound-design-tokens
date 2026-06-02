@@ -23,10 +23,12 @@ public class CompoundUIColorTokens {
     public let bgBadgeAccent = CompoundCoreUIColorTokens.green400
     public let bgBadgeCritical = CompoundCoreUIColorTokens.red300
     public let bgBadgeDefault = CompoundCoreUIColorTokens.themeBg
+    public let bgBadgeExternal = CompoundCoreUIColorTokens.alphaOrange300
     public let bgBadgeInfo = CompoundCoreUIColorTokens.blue400
     public let bgBadgePrimary = CompoundCoreUIColorTokens.gray1400
     public let bgBadgeSecondary = CompoundCoreUIColorTokens.gray400
     public let bgCanvasDefault = CompoundCoreUIColorTokens.themeBg
+    public let bgCanvasDefaultLevel1 = UIColor(named: "bgCanvasDefaultLevel1", in: Bundle.module, compatibleWith: nil)!
     public let bgCanvasDisabled = CompoundCoreUIColorTokens.gray200
     public let bgCriticalHovered = CompoundCoreUIColorTokens.red1000
     public let bgCriticalPrimary = CompoundCoreUIColorTokens.red900

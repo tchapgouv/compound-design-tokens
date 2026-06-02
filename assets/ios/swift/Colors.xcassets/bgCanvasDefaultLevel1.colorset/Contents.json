@@ -47,6 +47,28 @@
           "blue": "0.2235"
         }
       }
+    },
+    {
+      "idiom": "universal",
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        },
+        {
+          "appearance": "contrast",
+          "value": "high"
+        }
+      ],
+      "color": {
+        "color-space": "srgb",
+        "components": {
+          "alpha": "1.0000",
+          "red": "0.1686",
+          "green": "0.1882",
+          "blue": "0.2353"
+        }
+      }
     }
   ],
   "info": {

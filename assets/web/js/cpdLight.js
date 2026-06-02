@@ -694,6 +694,7 @@ export const cpdColorBgBadgeDefault = "#ffffff";
 export const cpdColorBgBadgePrimary = "#1A1D26";
 export const cpdColorBgBadgeSecondary = "#E3E5EC";
 export const cpdColorBgBadgeCritical = "#FFEEEC";
+export const cpdColorBgBadgeExternal = "hsla(28,100%,51%,0.12)";
 export const cpdColorBgSubtleSecondaryLevel0 = "#EFF2F5";
 export const cpdColorBorderDisabled = "#CDD3DC";
 export const cpdColorBorderFocused = "#C6D1FD";
