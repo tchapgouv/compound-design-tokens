@@ -41,7 +41,10 @@
       "types": "./assets/web/icons/*.d.ts",
       "import": "./assets/web/icons/*.js",
       "require": "./assets/web/icons/*.cjs"
-    }
+    },
+    "./assets/web/fonts": "./assets/web/fonts/",
+    "./assets/web/fonts/*": "./assets/web/fonts/*",
+    "./assets/web/fonts/Marianne.css": "./assets/web/fonts/Marianne.css"
   },
   "author": "",
   "license": "SEE LICENSE IN README.md",
