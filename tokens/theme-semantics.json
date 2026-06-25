@@ -90,31 +90,43 @@
           "description": "Decorative text colour (5, Pink) for avatars and usernames."
         },
         "6": {
-          "value": "{color.orange.1000}",
+          "value": "{color.orange.1100}",
           "type": "color",
           "description": "Decorative text colour (6, Orange) for avatars and usernames."
         }
       },
       "badge": {
         "accent": {
-          "value": "{color.green.1100}",
-          "type": "color",
-          "description": "Badge accent text colour"
+          "value": "{color.theme.bg}",
+          "type": "color"
         },
         "info": {
           "value": "{color.blue.1100}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "type": "color"
         },
         "default": {
-          "value": "{color.gray.1200}",
-          "type": "color",
-          "description": "Badge default text colour"
+          "value": "{color.gray.1100}",
+          "type": "color"
         },
-        "external": {
-          "value": "{color.orange.1200}",
-          "type": "color",
-          "description": "Badge external text colour"
+        "primary": {
+          "value": "{color.theme.bg}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.1100}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.1100}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.1100}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.orange.400}",
+          "type": "color"
         }
       }
     },
@@ -291,7 +303,7 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.400}",
+          "value": "{color.blue.900}",
           "type": "color"
         },
         "info": {
@@ -303,19 +315,23 @@
           "type": "color"
         },
         "primary": {
-          "value": "{color.gray.1400}",
+          "value": "{color.alpha.gray.700}",
           "type": "color"
         },
         "secondary": {
           "value": "{color.gray.400}",
           "type": "color"
         },
-        "critical": {
-          "value": "{color.red.300}",
+        "success": {
+          "value": "{color.green.400}",
           "type": "color"
         },
-        "external": {
-          "value": "{color.orange.300}",
+        "critical": {
+          "value": "{color.red.400}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.orange.400}",
           "type": "color"
         }
       }
