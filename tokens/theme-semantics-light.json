@@ -25,24 +25,36 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.400}",
-          "type": "color",
-          "description": "Badge accent background colour"
+          "value": "{color.blue.900}",
+          "type": "color"
         },
         "info": {
           "value": "{color.blue.400}",
-          "type": "color",
-          "description": "Badge info background colour"
+          "type": "color"
         },
         "default": {
-          "value": "{color.gray.400}",
-          "type": "color",
-          "description": "Badge default background colour"
+          "value": "{color.theme.bg}",
+          "type": "color"
         },
-        "external": {
+        "primary": {
+          "value": "{color.alpha.gray.700}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.400}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.400}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.400}",
+          "type": "color"
+        },
+        "warning": {
           "value": "{color.orange.400}",
-          "type": "color",
-          "description": "Badge default background colour"
+          "type": "color"
         }
       },
       "action": {
@@ -228,24 +240,36 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.1200}",
-          "type": "color",
-          "description": "Badge accent text colour"
+          "value": "{color.theme.bg}",
+          "type": "color"
         },
         "info": {
-          "value": "{color.blue.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "value": "{color.blue.1100}",
+          "type": "color"
         },
         "default": {
-          "value": "{color.gray.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "value": "{color.gray.1100}",
+          "type": "color"
         },
-        "external": {
-          "value": "{color.orange.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+        "primary": {
+          "value": "{color.theme.bg}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.1100}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.1100}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.1100}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.orange.1100}",
+          "type": "color"
         }
       }
     },
@@ -397,24 +421,36 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.1200}",
-          "type": "color",
-          "description": "Badge accent text colour"
+          "value": "{color.theme.bg}",
+          "type": "color"
         },
         "info": {
-          "value": "{color.blue.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "value": "{color.blue.1100}",
+          "type": "color"
         },
         "default": {
-          "value": "{color.gray.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "value": "{color.gray.1100}",
+          "type": "color"
         },
-        "external": {
-          "value": "{color.orange.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+        "primary": {
+          "value": "{color.theme.bg}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.1100}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.1100}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.1100}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.orange.1100}",
+          "type": "color"
         }
       },
       "accent": {
