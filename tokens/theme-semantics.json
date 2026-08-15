@@ -26,6 +26,11 @@
           "value": "{color.blue.900}",
           "type": "color",
           "description": "Accent text colour for plain actions."
+        },
+        "success": {
+          "value": "{color.green.900}",
+          "type": "color",
+          "description": "Text label success state"
         }
       },
       "link": {
@@ -128,18 +133,30 @@
           "value": "{color.orange.400}",
           "type": "color"
         }
+      },
+      "warning": {
+        "primary": {
+          "value": "{color.orange.900}",
+          "type": "color",
+          "description": "Warning text"
+        }
       }
     },
     "bg": {
       "subtle-primary": {
         "value": "{color.blue.400}",
         "type": "color",
-        "description": "Medium contrast surfaces.\nElevation: Default (Level 2)."
+        "description": "Medium contrast surfaces.\nElevation: Default (Level 3)."
       },
       "subtle-secondary": {
         "value": "{color.gray.300}",
         "type": "color",
-        "description": "Low contrast surfaces.\nElevation: Default (Level 1)."
+        "description": "Low contrast surfaces.\nElevation: Default (Level 2)."
+      },
+      "subtle-tertiary": {
+        "value": "{color.gray.100}",
+        "type": "color",
+        "description": "Lowest contrast surfaces.\nElevation: Default (Level 1)."
       },
       "canvas": {
         "default": {
@@ -238,6 +255,21 @@
           "value": "{color.green.400}",
           "type": "color",
           "description": "Subtle background colour for success state elements. State: Rest."
+        },
+        "rest": {
+          "value": "{color.green.900}",
+          "type": "color",
+          "description": "Default Background for success states"
+        },
+        "hovered": {
+          "value": "{color.green.1000}",
+          "type": "color",
+          "description": "Hovered Background for success states"
+        },
+        "pressed": {
+          "value": "{color.green.1100}",
+          "type": "color",
+          "description": "Pressed Background for success states"
         }
       },
       "info": {
@@ -299,6 +331,11 @@
           "value": "{color.blue.300}",
           "type": "color",
           "description": "Background colour for accent or brand actions. State: Selected"
+        },
+        "subtle": {
+          "value": "{color.green.200}",
+          "type": "color",
+          "description": "Accent colour, subtle shade for Text buttons Hover/press"
         }
       },
       "badge": {
@@ -386,6 +423,11 @@
           "value": "{color.green.500}",
           "type": "color",
           "description": "Subtle border colour for success state elements."
+        },
+        "primary": {
+          "value": "{color.green.900}",
+          "type": "color",
+          "description": "Border success state"
         }
       },
       "info": {
@@ -492,6 +534,13 @@
           "value": "{color.theme.bg}",
           "type": "color",
           "description": "Highest contrast icon color on top of high-contrast solid backgrounds like primary, accent, or destructive actions."
+        }
+      },
+      "warning": {
+        "primary": {
+          "value": "{color.orange.900}",
+          "type": "color",
+          "description": "Warning icon"
         }
       },
       "badge": {
