@@ -55,7 +55,7 @@ public class CompoundColorTokens {
     public let borderAccentSubtle = CompoundCoreColorTokens.blue700
     public let borderCriticalHovered = CompoundCoreColorTokens.red1000
     public let borderCriticalPrimary = CompoundCoreColorTokens.red900
-    public let borderCriticalSubtle = CompoundCoreColorTokens.red500
+    public let borderCriticalSubtle = CompoundCoreColorTokens.red400
     public let borderDisabled = CompoundCoreColorTokens.gray500
     public let borderFocused = CompoundCoreColorTokens.blue500
     public let borderInfoSubtle = CompoundCoreColorTokens.blue700

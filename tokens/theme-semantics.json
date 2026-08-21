@@ -413,7 +413,7 @@
           "description": "High-contrast border for critical state. State: Hover."
         },
         "subtle": {
-          "value": "{color.red.500}",
+          "value": "{color.red.400}",
           "type": "color",
           "description": "Subtle border colour for critical state elements."
         }

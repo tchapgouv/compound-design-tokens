@@ -26,7 +26,7 @@
   --cpd-color-border-interactive-hovered: var(--cpd-color-gray-1100);
   --cpd-color-border-critical-primary: var(--cpd-color-red-900);
   --cpd-color-border-critical-hovered: var(--cpd-color-red-1000);
-  --cpd-color-border-critical-subtle: var(--cpd-color-red-500);
+  --cpd-color-border-critical-subtle: var(--cpd-color-red-400);
   --cpd-color-border-success-subtle: var(--cpd-color-green-500);
   --cpd-color-border-success-primary: var(--cpd-color-green-900);
   --cpd-color-border-info-subtle: var(--cpd-color-blue-700);
