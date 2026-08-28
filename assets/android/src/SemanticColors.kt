@@ -51,12 +51,15 @@ data class SemanticColors(
     val bgActionTertiarySelected: Color,
     /** Badge accent background colour */
     val bgBadgeAccent: Color,
+    val bgBadgeCritical: Color,
     /** Badge default background colour */
     val bgBadgeDefault: Color,
     /** Badge default background colour */
     val bgBadgeExternal: Color,
     /** Badge info background colour */
     val bgBadgeInfo: Color,
+    val bgBadgePrimary: Color,
+    val bgBadgeSecondary: Color,
     /** Default global background for the user interface. Elevation: Default (Level 0) */
     val bgCanvasDefault: Color,
     /** Default global background for the user interface. Elevation: Level 1. */
@@ -93,6 +96,8 @@ data class SemanticColors(
     val bgSubtleSecondaryLevel0: Color,
     /** Subtle background colour for success state elements. State: Rest. */
     val bgSuccessSubtle: Color,
+    /** Accent borders for containers */
+    val borderAccentPrimary: Color,
     /** accent border intended for keylines on message highlights */
     val borderAccentSubtle: Color,
     /** High-contrast border for critical state. State: Hover. */
@@ -147,13 +152,13 @@ data class SemanticColors(
     val iconAccentPrimary: Color,
     /** Lowest contrast accessible accent icons. */
     val iconAccentTertiary: Color,
-    /** Badge accent text colour */
+    /** Badge accent icon colour */
     val iconBadgeAccent: Color,
-    /** Badge info text colour */
+    /** Badge default icon colour */
     val iconBadgeDefault: Color,
-    /** Badge info text colour */
+    /** Badge external icon colour */
     val iconBadgeExternal: Color,
-    /** Badge info text colour */
+    /** Badge info icon colour */
     val iconBadgeInfo: Color,
     /** High-contrast icon for critical state. State: Rest. */
     val iconCriticalPrimary: Color,
@@ -181,15 +186,19 @@ data class SemanticColors(
     val iconTertiary: Color,
     /** Translucent version of tertiary icon. Refer to it for intended use. */
     val iconTertiaryAlpha: Color,
+    /** Used to separate core sections of the UI as well as containers */
+    val separatorPrimary: Color,
+    /** Secondary shade for separating sections of components or list items */
+    val separatorSecondary: Color,
     /** Accent text colour for plain actions. */
     val textActionAccent: Color,
     /** Default text colour for plain actions. */
     val textActionPrimary: Color,
     /** Badge accent text colour */
     val textBadgeAccent: Color,
-    /** Badge info text colour */
+    /** Badge default text colour */
     val textBadgeDefault: Color,
-    /** Badge info text colour */
+    /** Badge external text colour */
     val textBadgeExternal: Color,
     /** Badge info text colour */
     val textBadgeInfo: Color,

@@ -21,9 +21,12 @@ public class CompoundColorTokens {
     public let bgActionTertiaryRest = CompoundCoreColorTokens.themeBg
     public let bgActionTertiarySelected = CompoundCoreColorTokens.gray400
     public let bgBadgeAccent = Color("bgBadgeAccent", bundle: Bundle.module)
+    public let bgBadgeCritical = CompoundCoreColorTokens.red300
     public let bgBadgeDefault = Color("bgBadgeDefault", bundle: Bundle.module)
     public let bgBadgeExternal = Color("bgBadgeExternal", bundle: Bundle.module)
     public let bgBadgeInfo = Color("bgBadgeInfo", bundle: Bundle.module)
+    public let bgBadgePrimary = CompoundCoreColorTokens.gray1400
+    public let bgBadgeSecondary = CompoundCoreColorTokens.gray400
     public let bgCanvasDefault = CompoundCoreColorTokens.themeBg
     public let bgCanvasDefaultLevel1 = Color("bgCanvasDefaultLevel1", bundle: Bundle.module)
     public let bgCanvasDisabled = CompoundCoreColorTokens.gray200
@@ -42,6 +45,7 @@ public class CompoundColorTokens {
     public let bgSubtleSecondary = Color("bgSubtleSecondary", bundle: Bundle.module)
     public let bgSubtleSecondaryLevel0 = Color("bgSubtleSecondaryLevel0", bundle: Bundle.module)
     public let bgSuccessSubtle = CompoundCoreColorTokens.green400
+    public let borderAccentPrimary = CompoundCoreColorTokens.green900
     public let borderAccentSubtle = CompoundCoreColorTokens.blue700
     public let borderCriticalHovered = CompoundCoreColorTokens.red1000
     public let borderCriticalPrimary = CompoundCoreColorTokens.red900
@@ -86,6 +90,8 @@ public class CompoundColorTokens {
     public let iconSuccessPrimary = Color("iconSuccessPrimary", bundle: Bundle.module)
     public let iconTertiary = Color("iconTertiary", bundle: Bundle.module)
     public let iconTertiaryAlpha = Color("iconTertiaryAlpha", bundle: Bundle.module)
+    public let separatorPrimary = CompoundCoreColorTokens.gray400
+    public let separatorSecondary = CompoundCoreColorTokens.gray300
     public let textActionAccent = Color("textActionAccent", bundle: Bundle.module)
     public let textActionPrimary = Color("textActionPrimary", bundle: Bundle.module)
     public let textBadgeAccent = Color("textBadgeAccent", bundle: Bundle.module)

@@ -76,7 +76,7 @@
         "external": {
           "value": "{color.orange.400}",
           "type": "color",
-          "description": "Badge default background colour"
+          "description": "Badge external background colour"
         }
       },
       "accent": {
@@ -439,17 +439,17 @@
         "accent": {
           "value": "{color.green.1200}",
           "type": "color",
-          "description": "Badge accent text colour"
+          "description": "Badge accent icon colour"
         },
         "info": {
           "value": "{color.blue.1200}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge info icon colour"
         },
         "default": {
           "value": "{color.gray.1200}",
           "type": "color",
-          "description": "Badge info text colour"
+          "description": "Badge default icon colour"
         },
         "external": {
           "value": "{color.orange.1200}",
