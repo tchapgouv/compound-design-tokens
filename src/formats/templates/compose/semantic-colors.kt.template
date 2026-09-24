@@ -12,12 +12,43 @@ package <%= options.packageName %>
  */
 @OptIn(CoreColorToken::class)
 val <%= options.valName %> = SemanticColors(
-    <%= allTokens.map(function(prop) {
-      let result = formatProperty(prop)
-      result = result
-        .replace("= ", "= " + options.tokenClassName + ".")
-        .replace("color", "")
-      return result[0].toLowerCase() + result.slice(1);
-    }).sort().join(',\n' + options.indentLevel ) %>,
+    <%
+      const TCHAP_EXTRA_TOKENS = [
+        "bgBadgeSuccess",
+        "bgBadgeWarning",
+        "iconBadgeAccent",
+        "iconBadgeCritical",
+        "iconBadgeDefault",
+        "iconBadgeExternal",
+        "iconBadgeInfo",
+        "iconBadgePrimary",
+        "iconBadgeSecondary",
+        "iconBadgeSuccess",
+        "iconBadgeWarning",
+        "textBadgeCritical",
+        "textBadgeDefault",
+        "textBadgePrimary",
+        "textBadgeSecondary",
+        "textBadgeSuccess",
+        "textBadgeWarning",
+      ];
+
+      let formattedTokens = allTokens.map(function(prop) {
+        let result = formatProperty(prop)
+        result = result
+          .replace("= ", "= " + options.tokenClassName + ".")
+          .replace("color", "")
+        let name = result.split(' = ')[0].trim();
+        name = name[0].toLowerCase() + name.slice(1);
+        let value = result.split(' = ')[1].trim();
+        return { name, value };
+      }).sort((a, b) => a.name.localeCompare(b.name));
+
+      let standardTokens = formattedTokens.filter(t => !TCHAP_EXTRA_TOKENS.includes(t.name));
+      let tchapTokens = formattedTokens.filter(t => TCHAP_EXTRA_TOKENS.includes(t.name));
+    %><%= standardTokens.map(t => t.name + " = " + t.value).join(',\n    ') %>,
     isLight = <%= options.isLight %>,
+    tchapExtraColors = TchapExtraColors(
+        <%= tchapTokens.map(t => t.name + " = " + t.value).join(',\n        ') %>
+    ),
 )

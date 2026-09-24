@@ -59,24 +59,36 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.400}",
-          "type": "color",
-          "description": "Badge accent background colour"
+          "value": "{color.blue.600}",
+          "type": "color"
         },
         "info": {
-          "value": "{color.blue.400}",
-          "type": "color",
-          "description": "Badge info background colour"
+          "value": "{color.blue.300}",
+          "type": "color"
         },
         "default": {
-          "value": "{color.gray.400}",
-          "type": "color",
-          "description": "Badge default background colour"
+          "value": "{color.theme.bg}",
+          "type": "color"
         },
-        "external": {
+        "primary": {
+          "value": "{color.alpha.gray.700}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.400}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.400}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.400}",
+          "type": "color"
+        },
+        "warning": {
           "value": "{color.orange.400}",
-          "type": "color",
-          "description": "Badge external background colour"
+          "type": "color"
         }
       },
       "accent": {
@@ -120,7 +132,7 @@
           "description": "High-contrast background color for critical state. State: Hover."
         },
         "subtle": {
-          "value": "{color.red.500}",
+          "value": "{color.red.400}",
           "type": "color",
           "description": "Default subtle critical surfaces. State: Rest."
         },
@@ -228,24 +240,36 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.1200}",
-          "type": "color",
-          "description": "Badge accent text colour"
+          "value": "{color.gray.1400}",
+          "type": "color"
         },
         "info": {
-          "value": "{color.blue.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "value": "{color.blue.1100}",
+          "type": "color"
         },
         "default": {
           "value": "{color.gray.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "type": "color"
         },
-        "external": {
+        "primary": {
+          "value": "{color.theme.bg}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.1200}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.1200}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.1200}",
+          "type": "color"
+        },
+        "warning": {
           "value": "{color.orange.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "type": "color"
         }
       }
     },
@@ -437,24 +461,36 @@
       },
       "badge": {
         "accent": {
-          "value": "{color.green.1200}",
-          "type": "color",
-          "description": "Badge accent icon colour"
+          "value": "{color.gray.1400}",
+          "type": "color"
         },
         "info": {
-          "value": "{color.blue.1200}",
-          "type": "color",
-          "description": "Badge info icon colour"
+          "value": "{color.blue.1100}",
+          "type": "color"
         },
         "default": {
           "value": "{color.gray.1200}",
-          "type": "color",
-          "description": "Badge default icon colour"
+          "type": "color"
         },
-        "external": {
+        "primary": {
+          "value": "{color.theme.bg}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.1200}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.1200}",
+          "type": "color"
+        },
+        "critical": {
+          "value": "{color.red.1200}",
+          "type": "color"
+        },
+        "warning": {
           "value": "{color.orange.1200}",
-          "type": "color",
-          "description": "Badge info text colour"
+          "type": "color"
         }
       }
     }

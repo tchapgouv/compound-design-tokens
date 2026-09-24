@@ -6,9 +6,33 @@ import androidx.compose.ui.graphics.Color
 <%= options.import.map(function(item) {
     return 'import ' + item
   }).join('\n') %><%
+  const TCHAP_EXTRA_TOKENS = [
+    "bgBadgeSuccess",
+    "bgBadgeWarning",
+    "iconBadgeAccent",
+    "iconBadgeCritical",
+    "iconBadgeDefault",
+    "iconBadgeExternal",
+    "iconBadgeInfo",
+    "iconBadgePrimary",
+    "iconBadgeSecondary",
+    "iconBadgeSuccess",
+    "iconBadgeWarning",
+    "textBadgeCritical",
+    "textBadgeDefault",
+    "textBadgePrimary",
+    "textBadgeSecondary",
+    "textBadgeSuccess",
+    "textBadgeWarning",
+  ];
+
   let colors = allTokens.map(function(prop) {
     return { name: options.fixColorName(prop.name), description: prop.description };
   });
+
+  let standardColors = colors.filter(c => !TCHAP_EXTRA_TOKENS.includes(c.name));
+  let tchapExtraColors = colors.filter(c => TCHAP_EXTRA_TOKENS.includes(c.name));
+
   let INDENT_LEVEL = options.indentLevel;
   let INDENT_2_LEVELS = INDENT_LEVEL + INDENT_LEVEL;
 %>
@@ -16,7 +40,7 @@ import androidx.compose.ui.graphics.Color
  * This class holds all the semantic tokens of the Compound theme.
  */
 data class <%= options.className %>(
-<%= colors.map(function(color) {
+<%= standardColors.map(function(color) {
     let comment = "";
     if (color.description) {
       comment = INDENT_LEVEL + `/** ${color.description.replace("\n", " ")} */\n`
@@ -26,4 +50,24 @@ data class <%= options.className %>(
 %>
     /** True for light theme, false for dark theme. */
     val isLight: Boolean,
+    val tchapExtraColors: TchapExtraColors,
+) {
+<%= tchapExtraColors.map(function(color) {
+    return INDENT_LEVEL + 'val ' + color.name + ': Color get() = tchapExtraColors.' + color.name
+  }).join('\n')
+%>
+}
+
+/**
+ * Tchap specific tokens.
+ */
+data class TchapExtraColors(
+<%= tchapExtraColors.map(function(color) {
+    let comment = "";
+    if (color.description) {
+      comment = INDENT_LEVEL + `/** ${color.description.replace("\n", " ")} */\n`
+    }
+    return comment + INDENT_LEVEL + 'val ' + color.name + ': Color,'
+  }).join('\n')
+%>
 )
