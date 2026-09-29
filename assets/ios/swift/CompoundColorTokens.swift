@@ -5,7 +5,7 @@
 
 import SwiftUI
 
-public final class CompoundColorTokens {
+public final class CompoundColorTokens: Sendable {
     public let bgAccentHovered = Color("bgAccentHovered", bundle: Bundle.module)
     public let bgAccentPressed = Color("bgAccentPressed", bundle: Bundle.module)
     public let bgAccentRest = Color("bgAccentRest", bundle: Bundle.module)
