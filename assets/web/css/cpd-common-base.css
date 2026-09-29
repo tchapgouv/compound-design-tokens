@@ -26,10 +26,10 @@
   --cpd-font-size-body-sm: 0.8125rem;
   --cpd-font-size-body-md: 0.9375rem;
   --cpd-font-size-body-lg: 1.0625rem;
-  --cpd-font-size-heading-sm: 1.25rem;
-  --cpd-font-size-heading-md: 1.5rem;
-  --cpd-font-size-heading-lg: 1.75rem;
-  --cpd-font-size-heading-xl: 2rem;
+  --cpd-font-size-heading-sm: 1rem;
+  --cpd-font-size-heading-md: 1.25rem;
+  --cpd-font-size-heading-lg: 1.5rem;
+  --cpd-font-size-heading-xl: 1.75rem;
   --cpd-font-size-root: 1rem;
   --cpd-font-letter-spacing-body-xs: 0.0048em;
   --cpd-font-letter-spacing-body-sm: -0.0031em;
