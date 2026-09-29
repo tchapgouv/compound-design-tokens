@@ -67,19 +67,19 @@
       },
       "heading": {
         "sm": {
-          "value": "20",
+          "value": "16",
           "type": "fontSizes"
         },
         "md": {
-          "value": "24",
+          "value": "20",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "28",
+          "value": "24",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "32",
+          "value": "28",
           "type": "fontSizes"
         }
       },
