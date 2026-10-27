@@ -5,7 +5,7 @@
 
 import SwiftUI
 
-public class CompoundIcons {
+public final class CompoundIcons: Sendable {
     public let `public` = Image("public", bundle: Bundle.module)
     public let admin = Image("admin", bundle: Bundle.module)
     public let advancedSettings = Image("advancedSettings", bundle: Bundle.module)
@@ -95,6 +95,8 @@ public class CompoundIcons {
     public let home = Image("home", bundle: Bundle.module)
     public let homeSolid = Image("homeSolid", bundle: Bundle.module)
     public let host = Image("host", bundle: Bundle.module)
+    public let hourglass = Image("hourglass", bundle: Bundle.module)
+    public let hourglassSolid = Image("hourglassSolid", bundle: Bundle.module)
     public let image = Image("image", bundle: Bundle.module)
     public let imageError = Image("imageError", bundle: Bundle.module)
     public let indentDecrease = Image("indentDecrease", bundle: Bundle.module)

@@ -5,7 +5,7 @@
 
 import UIKit
 
-public class CompoundUIColorTokens {
+public final class CompoundUIColorTokens: Sendable {
     public let bgAccentHovered = UIColor(named: "bgAccentHovered", in: Bundle.module, compatibleWith: nil)!
     public let bgAccentPressed = UIColor(named: "bgAccentPressed", in: Bundle.module, compatibleWith: nil)!
     public let bgAccentRest = UIColor(named: "bgAccentRest", in: Bundle.module, compatibleWith: nil)!
